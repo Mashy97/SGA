@@ -52,8 +52,5 @@ int main() {
     // int 변수에 %f 또는 float 변수에 %d를 사용한다면 정확한 값이 출력되지 않음 
 
     // 문자형(String) 변수 선언
-    string str = "";
-    string str1
-
     return 0;
 }
