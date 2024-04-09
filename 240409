@@ -1,0 +1,17 @@
+// 24.04.09 Day1
+// SGA C++ unreal
+// https://www.programiz.com/cpp-programming/online-compiler/
+
+#include <stdio.h>
+// stdio.h header를 가져온다
+// 원하는 기능일 포함한 header를 가져올 수 있음
+// header 란? 자주변경되지 않는 긴소스를 미리 컴파일하여 컴파일결과를 별도의 파일에 저장하여 컴파일 속도 향상
+int main() {
+    // C 기본 명령어
+    printf("한글 입력\n");        // \n 줄 바꿈  
+    printf("%d\n",123);          // %d 정수형 표현 
+    printf("%d\n",-12342222);    // %d 범위 " -2,147,483,648 ~ 2,147,483,647 " 
+    printf("%s  \n  %s", "한글","입력"); // %s 문자형 표현
+    
+    return 0;
+}
