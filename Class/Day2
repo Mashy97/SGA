@@ -76,6 +76,7 @@ int main() {
       printf("0으로 나눗셈은 불가능합니다."); 
     }
 
+    // scanf를 이용한 문제 제작
     // switch를 이용한 사칙연산
     int x, y, result;
     char op;
@@ -136,6 +137,7 @@ int main() {
         }
     }
 
+    // scanf를 사용한 문제 제작
     // while - if - for을 이용한 구구단 출력하기
     // 계속하여 진행이 가능하며 0을 입력하면 중단
     int i;
