@@ -140,19 +140,19 @@ int main() {
     // 계속하여 진행이 가능하며 0을 입력하면 중단
     int i;
 
-    while(1){
+    while(1){        // break 전까지 계속 진행
         printf("구구단 단수를 입력하세요.( exit: 0 ) : ");
         scanf("%d",&i);
         
         if(i == 0){    // exit 조건
                 printf("구구단을 종료합니다.");
                 break;
-            }
+            }          // i의 값이 1 ~ 9 사이일 경우
         else if(i > 0 && i < 10){    // 
             for(int j = 1; j < 10; j++){
                 printf("%d * %d = %d\n",i,j,i*j);
             }
-        }else{
+        }else{        // i의 값이 0 ~ 9 사이가 아닐경우
             printf(" 1 ~ 9 사이의 숫자를 입력해주세요.\n");
         }
       
