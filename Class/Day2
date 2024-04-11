@@ -135,6 +135,28 @@ int main() {
             printf("사칙연산자가 아닙니다.");
         }
     }
-    
+
+    // while - if - for을 이용한 구구단 출력하기
+    // 계속하여 진행이 가능하며 0을 입력하면 중단
+    int i;
+
+    while(1){
+        printf("구구단 단수를 입력하세요.( exit: 0 ) : ");
+        scanf("%d",&i);
+        
+        if(i == 0){    // exit 조건
+                printf("구구단을 종료합니다.");
+                break;
+            }
+        else if(i > 0 && i < 10){    // 
+            for(int j = 1; j < 10; j++){
+                printf("%d * %d = %d\n",i,j,i*j);
+            }
+        }else{
+            printf(" 1 ~ 9 사이의 숫자를 입력해주세요.\n");
+        }
+      
+    }
+
     return 0;
 }
