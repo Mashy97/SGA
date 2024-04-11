@@ -92,7 +92,7 @@ int main() {
     {
          printf(" j= %d\n" , j);
          j++;        // printf 출력 후 j++로 j의 값이 1 증가 
-    } // while 문은 한번 이상 작동해야할 경우 사용한다.
+    } // do-while 문은 한번 이상 작동해야할 경우 사용한다.
       // break을 사용하여 while문을 종료가 가능하다.
 
     //while, switch 활용
