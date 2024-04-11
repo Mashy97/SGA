@@ -2,3 +2,137 @@
 // SGA C++ unreal class
 // https://www.programiz.com/cpp-programming/online-compiler/
 
+#include <iostream>
+
+int main() {
+    // scanf의 형식 지정자
+    // int - %d, %o, %x, %X
+
+    // scanf 예제 1
+    // a의 값을 직접 입력 후 출력하기
+    int a;
+    printf("a의 정수값을 입력하세요.\n");
+    scanf("%d",&a);    // 변수에 &를 붙여야 한다.
+    printf("입력한 a의 값은 %d입니다.",a);
+
+    // scanf 예제 2
+    // 두개의 변수 입력 후 사칙연산
+    short sNumber;   // short의 범위 "-32,768 ~ 32,767"
+    int iNumber;
+
+    printf("sNumber의 값을 입력하세요 : ");  // 두개의 정수값을 입력
+    scanf("%d", &sNumber);
+    printf("iNumber의 값을 입력하세요 : ");
+    scanf("%d",&iNumber);
+
+    // 만약 sNumber에 입력된 정수가 short 범위를 넘어 음수로 표기 될 경우 
+    // if문 하나만 사용
+    // 다시 입력된 값이 short 오류가 있다면 
+    /*
+    if( sNumber <= -32768 || sNumber >= 32767  ){        // sNumber의 값이 범위를 넘는 값이 입력되었을 경우
+        printf("sNumber의 범위 오류입니다.\n");
+        printf("short 타입의 범위는 -32,768 ~ 32,767입니다.\n" );
+        printf("sNumber를 다시 입력해 주세요 : ");
+        scanf("%d", &sNumber);  
+    }
+    */
+
+    // 만약 sNumber에 입력된 정수가 short 범위를 넘어 음수로 표기 될 경우 
+    // while if문 사용
+    /*
+    bool wBool = true; 
+    while(wBool){               // wBool이 true일 경우 반복
+        if(sNumber <= -32768 || sNumber >= 32767){        // sNumber의 값이 범위를 넘는 값이 입력되었을 경우
+            printf("sNumber의 범위 오류입니다.\n");
+            printf("short 타입의 범위는 -32,768 ~ 32,767입니다.\n" );
+            printf("sNumber를 다시 입력해 주세요 : ");
+            scanf("%d", &sNumber);  // sNumber 재입력
+        }else{
+            wBool = false; 
+            // sNumber의 값을 정상적으로 입력이 되었다면 wBool을 false로 바꾸며 while문 종료
+        }
+    }
+    */
+    int pl = sNumber+iNumber;
+    int mi = sNumber-iNumber;
+    int mu = sNumber*iNumber;
+    int di_qu = sNumber/iNumber;
+    int di_re = sNumber%iNumber;
+    
+    printf("%d + %d = %d\n", sNumber, iNumber, pl);
+    printf("%d - %d = %d\n", sNumber, iNumber, mi);
+    printf("%d * %d = %d\n", sNumber, iNumber, mu);
+
+    if( iNumber != 0 )  // iNumber가 0이 아닐경우 몫, 나머지 출력
+    {
+      int di_qu = sNumber/iNumber;
+      int di_re = sNumber%iNumber;
+      printf("%d / %d = %d\n", sNumber, iNumber, di_qu);
+      printf("%d %% %d = %d\n", sNumber, iNumber, di_re);
+      // printf에 %를 출력하고 싶으면 '%%' 사용하여 '%'를 출력한다.
+    }
+    else{       // iNumber가 0일 경우 몫, 나머지 출력 불가능
+      printf("0으로 나눗셈은 불가능합니다."); 
+    }
+
+    int x, y, result;
+    char op;
+    scanf("%d %s %d",&x, &op, &y );
+    
+    switch(op){
+    case '+':    // 더하기
+        {   
+            printf("더하기\n");
+            result = x+y;
+            printf("%d",result);
+        }
+        break;
+        
+        case '-':    // 빼기
+        {   
+            printf("빼기\n");
+            result = x-y;
+            printf("%d",result);
+        }
+        break;
+        
+        case '*':    // 곱하기
+        {   
+            printf("곱하기\n");
+            result = x*y;
+            printf("%d",result);
+        }
+        break;
+        
+        case '/':    // 나누기-몫
+        {   
+            if(y != 0){    // y의 값이 0이 아닐경우 정상적으로 진행
+                printf("몫\n");
+                result = x/y;
+                printf("%d",result);
+            }else{        // y의 값이 0이 들어왔을 경우
+                printf("0으로 나눗셈은 불가합니다.");
+            }
+        }
+        break;
+        
+        case '%':    // 나누기-나머지
+        {   
+            if(y != 0){     // y의 값이 0이 아닐경우 정상적으로 진행
+                printf("나머지\n");
+                result = x%y;
+                printf("%d",result);
+            }else{         // y의 값이 0이 들어왔을 경우
+                printf("0으로 나눗셈은 불가합니다.");
+            }
+        }
+        break;
+        
+        default:  // 사칙 연산 기호가 아닐경우
+        {
+            printf("사칙연산자가 아닙니다.");
+        }
+    }
+    
+    return 0;
+}
