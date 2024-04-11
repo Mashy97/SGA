@@ -22,8 +22,6 @@ int main() {
 
     printf("sNumber의 값을 입력하세요 : ");  // 두개의 정수값을 입력
     scanf("%d", &sNumber);
-    printf("iNumber의 값을 입력하세요 : ");
-    scanf("%d",&iNumber);
 
     // 만약 sNumber에 입력된 정수가 short 범위를 넘어 음수로 표기 될 경우 
     // if문 하나만 사용
@@ -53,6 +51,10 @@ int main() {
         }
     }
     */
+
+    printf("iNumber의 값을 입력하세요 : ");
+    scanf("%d",&iNumber);
+
     int pl = sNumber+iNumber;
     int mi = sNumber-iNumber;
     int mu = sNumber*iNumber;
@@ -61,7 +63,7 @@ int main() {
     printf("%d - %d = %d\n", sNumber, iNumber, mi);
     printf("%d * %d = %d\n", sNumber, iNumber, mu);
 
-    if( iNumber != 0 )  // iNumber가 0이 아닐경우 몫, 나머지 출력
+    if( iNumber !=0 )  // iNumber가 0이 아닐경우 몫, 나머지 출력
     {
       int di_qu = sNumber/iNumber;
       int di_re = sNumber%iNumber;
