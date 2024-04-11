@@ -56,8 +56,6 @@ int main() {
     int pl = sNumber+iNumber;
     int mi = sNumber-iNumber;
     int mu = sNumber*iNumber;
-    int di_qu = sNumber/iNumber;
-    int di_re = sNumber%iNumber;
     
     printf("%d + %d = %d\n", sNumber, iNumber, pl);
     printf("%d - %d = %d\n", sNumber, iNumber, mi);
@@ -67,6 +65,7 @@ int main() {
     {
       int di_qu = sNumber/iNumber;
       int di_re = sNumber%iNumber;
+
       printf("%d / %d = %d\n", sNumber, iNumber, di_qu);
       printf("%d %% %d = %d\n", sNumber, iNumber, di_re);
       // printf에 %를 출력하고 싶으면 '%%' 사용하여 '%'를 출력한다.
