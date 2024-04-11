@@ -76,6 +76,7 @@ int main() {
       printf("0으로 나눗셈은 불가능합니다."); 
     }
 
+    // switch를 이용한 사칙연산
     int x, y, result;
     char op;
     scanf("%d %s %d",&x, &op, &y );
