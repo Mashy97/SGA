@@ -88,6 +88,7 @@ int main() {
 			printf("키보드 %c키를 입력하였습니다.\n", num);
 		}	
 	}
+
   // 배열 선언 및 간단 예제
 	int num1 = 10;
 	int num2 = 20;
