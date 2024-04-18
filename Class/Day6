@@ -4,7 +4,6 @@
 
 // Day4의 내용을 Util.cpp, Util.h를 제작하여 코드 간편화 하기
 // 상점 구매, 판매 기능 완성하기
-
 // Util.cpp, Util.h를 이용하여 Console.cpp 코드 줄이기 및 간편화 하기
 // Console.cpp
 #include "Util.h"
