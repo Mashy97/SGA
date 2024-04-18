@@ -1,0 +1,410 @@
+// 24.04.18 Day6
+// SGA C++ unreal class
+// visual studio 2022
+
+// Day4의 내용을 Util.cpp, Util.h를 제작하여 코드 간편화 하기
+// 상점 구매, 판매 기능 완성하기
+
+// Util.cpp, Util.h를 이용하여 Console.cpp 코드 줄이기 및 간편화 하기
+// Console.cpp
+#include "Util.h"
+
+int main()
+{
+	
+	int SCENE_NUMBER = 0;
+	int STAGE_LEVEL = 0;
+	
+	STAGES stage = (STAGES)LEVEL1;
+	SCENES scene = (SCENES)TITLE_SCENE;
+	string cStat;
+	string BoS;
+	int CR_NUM = 999;
+	bool wBool = true;
+	int count = 0;
+	int cNum = 999;
+	int cName;
+	int a = 0;
+	int b = 0;
+
+	while (wBool) {
+		system("cls");
+
+		switch (scene) {
+		case SCENES::TITLE_SCENE:		// TITLE
+			title(" 게임 만들기");
+			break;
+
+		case SCENES::CCREATE_SCENE:		// 캐릭 생성 ( 이름 , 스텟 설정 )
+			title(" 캐릭터 생성");
+			
+			for (int i = count; i == count;) {	// 캐릭터를 하나 씩 생성할 때 마다 CR[i].NUM에 count 값 부여
+				cout << " 이름을 입력하세요 : ";	// 캐릭 생성 후 겹치는 상황을 방지
+				cin >> CR[i].name;
+
+				cout << " 힘 스텟 입력 : ";
+				cin >> CR[i].ST;
+
+				cout << " 민첩 스텟 입력 : ";
+				cin >> CR[i].DE;
+
+				cout << " 운 스텟 입력 : ";
+				cin >> CR[i].LU;
+
+				cout << " 지능 스텟 입력 : ";
+				cin >> CR[i].IN;
+
+				CR[i].NUM = count;				// CR[i].NUM에 현재 count 값을 부여하여 캐릭터끼리 식별 가능
+				
+				count++;						// 다음 캐릭을 위하여 count++
+			}									// count는 캐릭터의 갯수와 캐릭터의 식별 값을 부여하는 역할
+			break;
+
+		case SCENES::CSELECT_SCENE:		// 캐릭터 선택
+			title(" 캐릭터 선택");
+			cout << "이름" << "\t" << "힘" << "\t" << "민첩" << "\t" << "운" << "\t" << "지능" << "\t" << "캐릭터 번호" << endl;
+
+			for (int i = 0; i < count; i++) {
+				cout << CR[i].name << "\t" << CR[i].ST << "\t"<< CR[i].DE << "\t"<< CR[i].LU << "\t"<< CR[i].IN << "\t"<< CR[i].NUM << endl;
+
+			}
+			cout << " 캐릭터 번호를 입력하여 캐릭터를 선택하세요." << endl;
+			cin >> CR_NUM;
+			
+			break;		
+
+		case SCENES::CUPDATE_SCENE:							// 능력치 수정
+			title(" 능력치 수정");		
+			
+			cout << " 수정할 캐릭터의 번호를 입력하세요 : ";	// 캐릭터의 번호를 확인하여 입력한 후
+			cin >> cName;
+
+			for (int i = 0; i < count; i++) {				// 해당 번호와 일치하는 i를 확인한 후 저장
+				if (cName == CR[i].NUM) {
+					cNum = i;
+				}
+			}
+
+			if (cNum != 999) {										
+				cout << " 수정할 능력치를 입력하세요( ex. ST, 20 ) : ";
+				cin >> cStat;
+				if (cStat == "ST") {
+					cout << " 변경 수치 ";
+					cin >> CR[cNum].ST;
+				}
+				else if (cStat == "DE"){
+					cout << " 변경 수치 ";
+					cin >> CR[cNum].DE;
+				}
+				else if (cStat == "LU"){
+					cout << " 변경 수치 ";
+					cin >> CR[cNum].LU;
+				}
+				else if (cStat == "IN"){
+					cout << " 변경 수치 ";
+					cin >> CR[cNum].IN;
+				}
+			}
+			else {
+				cout << " 해당 이름 없음 " << endl;
+			}
+
+			break;
+
+		case SCENES::MAIN_SCENE:										// 4. 메인
+			title(" 메인 화면");											// 캐릭터 선택 후 화면 ex) Stage 선택
+			
+			if (CR_NUM != 999) {										// 캐릭 선택창에서 캐릭이 선택을 하였다면 CR_NUM 값이 999에서 변경이 되었기 때문에
+				cout << " 현재 캐릭터 : " << CR[CR_NUM].name << endl;	// 캐릭터 선택 확인 가능하다.
+			}
+			else {
+
+			}
+
+			cout << " Stage 선택 ( 1 ~ 10 ) : ";
+			cin >> STAGE_LEVEL;
+
+			stage = (STAGES)STAGE_LEVEL;
+
+			select_stage(stage);
+
+		case SCENES::LOBBY_SCENE:			// 5. 로비
+			title(" 로비 화면");				// 게임 화면
+			break;							// 또는 스테이지를 입력했을 때 스테이지의 로비 화면
+
+		case SCENES::OPTION_SCENE:			// 10. 옵션
+			title(" 옵션 화면");				// 설정 화면
+			break;
+
+		case SCENES::SHOP_SCENE:			// 11. 상점
+			
+			while (1) {
+
+				title(" 상점 화면");				// 아이템 정보, 아이템 구매
+				shop();							// buy( int a, int b) , sell( int a, int b) 
+				cin >> BoS;
+
+				if (BoS == "b") {
+					cout << " 물품 번호 입력 : ";
+					cin >> a;
+
+					cout << " 갯수 입력 : ";
+					cin >> b;
+
+					buy(CR_NUM, a, b);
+
+				}
+				else if (BoS == "s") {
+					cout << " 물품 번호 입력 : ";
+					cin >> a;
+
+					cout << " 갯수 입력 : ";
+					cin >> b;
+
+					sell(CR_NUM, a, b);
+				}
+				else if (BoS == "x") {
+					break;
+				}
+			}
+			break;
+
+
+		case SCENES::BATTLE_SCENE:			// 전투 - stage 선택 -> 로비 -> ??? -> 배틀
+			title(" 전투 화면");				// CHARACTER - HP, MP, 공격력 추가 
+			break;							// 
+
+		case SCENES::GAMEOVER_SCENE:		// 99. 게임 오버	
+			title("GAMEOVER");				// Battle에서 목적 달성 실패 시 패배
+			break;
+
+		default:
+			cout << " 다시 입력하세요. " << endl;
+			break;
+		};
+		
+		if (CR_NUM != 999) {			// 캐릭터 선택 확인 - 캐릭터를 선택했을 경우에만 표시한다.
+			cout << " 현재 캐릭터 : " << CR[CR_NUM].name << endl;
+		}
+
+		cout << " 화면 선택 : ";
+		cin >> SCENE_NUMBER;
+
+		scene = (SCENES)SCENE_NUMBER;	// 입력받은 SECNE_NUMBER 값을 SCENES값으로 변경 후 scene에 입력
+	}
+
+}
+
+// 헤더파일 생성
+// 함수 선언 및 변수 값 지정
+// Util.h
+#pragma once
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <iostream>
+
+using namespace std;
+
+void title(string title);        // title 안내
+
+void select_stage(int stage);    // stage 선택
+
+void shop();                     // 상점
+
+void buy(int a, int b, int c);   // 물건 구매
+
+void sell(int a, int b, int c);  // 물건 판매
+
+struct CHARACTER{
+	string name;	// 캐릭 이름
+	int ST;
+	int DE;
+	int LU;
+	int IN;
+	int NUM;		// 캐릭 번호
+	int ITEM[5][2] = { {1,0},    // { 아이템 번호 , 수량 }으로 설정
+					   {2,0},	           // 아이템 번호 1 = HP 포션, 2 = MP 포션 등
+					   {3,0},            // 초기 수량은 0으로 설정
+					   {4,0},            
+					   {5,0} };
+	int GOLD;		// 재화
+};
+
+CHARACTER CR[10];
+enum SCENES {
+	TITLE_SCENE = 0,
+	CCREATE_SCENE,			// 1
+	CSELECT_SCENE,			// 2
+	CUPDATE_SCENE,			// 3
+	MAIN_SCENE,			  	// 4
+	LOBBY_SCENE,		  	// 5
+
+	OPTION_SCENE = 10,
+	SHOP_SCENE,				// 11
+	BATTLE_SCENE,			// 12
+	GAMEOVER_SCENE = 99,	// 99
+	SCENE_MAX
+};
+
+enum STAGES {
+	LEVEL1 = 1,
+	LEVEL2,
+	LEVEL3,
+	LEVEL4,
+	LEVEL5,
+	LEVEL6,
+	LEVEL7,
+	LEVEL8,
+	LEVEL9,
+	LEVEL10,
+	LEVEL_MAX
+};
+
+
+// Util.h 함수의 구조 설정
+// 함수, 기능 설정
+// Util.cpp
+// 상점기능의 buy, sell 추가
+#include "Util.h"
+
+void title(string title) {
+	cout << " ==================================== " << endl;
+	cout << " ============" << title << "============ " << endl;
+	cout << " ==================================== " << endl;
+};
+
+void select_stage(int stage) {								// 스테이지 입장
+	cout << " ====== " << stage << " LEVEL ======" << endl;	// 현재 : 스테이지를 입력 받아 해당 스테이지 표시
+	// 차후 계획 : 스테이지 입장 후 정보 획득 및 BATTLE_SCENE으로 넘어가기
+}
+void shop() {							// 상점 화면
+	cout << "1. HP 포션" << endl;		// 현재 : SHOP_SCENE에 들어왔을 경우 상점 목록 출력, 구매, 판매 구현
+	cout << "2. MP 포션" << endl;		// 차후 계획( 완료 ) : buy( int a( 물건 번호 ), int b( 갯수) )와 같이 구매 가능하도록 설정
+	cout << "3. 검" << endl;			 	// 차후 계획( 완료 ) : buy와 같은 형태로 sell( int a, int b ) 판매가 가능하도록 설정 
+	cout << "4. 방패" << endl;      // 차후 계획 : gold를 사용하여 물품 구매, 판매 시 수량 체크와 gold 획득 기능 
+	cout << "5. 지팡이" << endl;
+	cout << "구매 : b, 판매 : s" << endl;
+	cout << " 나가기 : x" << endl;
+}
+
+void buy(int a, int b, int c) {
+	b -= 1;      // 배열은 0부터 시작하지만 shop()의 아이템 번호는 1부터 시작하기 때문에 -1 하며 배열 숫자로 맞춰준다.
+	switch (b) {
+	case 0:
+		CR[a].ITEM[b][1] = c;
+		cout << "HP 포션 " << CR[a].ITEM[b][1] << "개 구매완료" << endl;
+		cout << "보유 HP 포션 : " << CR[a].ITEM[b][1] << endl;
+		break;
+
+	case 1:
+		CR[a].ITEM[b][1] = c;
+		cout << "MP 포션 " << CR[a].ITEM[b][1] << "개 구매완료" << endl;
+		cout << "보유 MP 포션 : " << CR[a].ITEM[b][1] << endl;
+		break;
+
+	case 2:
+		CR[a].ITEM[b][1] = c;
+		cout << "검 " << CR[a].ITEM[b][1] << "개 구매완료" << endl;
+		cout << "보유 검 갯수 : " << CR[a].ITEM[b][1] << endl;
+		break;
+
+	case 3:
+		CR[a].ITEM[b][1] = c;
+		cout << "방패 " << CR[a].ITEM[b][1] << "개 구매완료" << endl;
+		cout << "보유 방패 갯수  : " << CR[a].ITEM[b][1] << endl;
+		break;
+
+	case 4:
+		CR[a].ITEM[b][1] = c;
+		cout << "지팡이 " << CR[a].ITEM[b][1] << "개 구매완료" << endl;
+		cout << "보유 지팡이 갯수 : " << CR[a].ITEM[b][1] << endl;
+		break;
+	}
+}
+
+void sell(int a, int b, int c) {
+	b -= 1;  
+	switch (b) {
+	case 0:
+		CR[a].ITEM[b][1] -= c;
+		cout << "HP 포션 " << c << "개 판매완료" << endl;
+		cout << "보유 HP 포션 : " << CR[a].ITEM[b][1] << endl;
+		break;
+
+	case 1:
+		CR[a].ITEM[b][1] -= c;
+		cout << "MP 포션 " << c << "개 판매완료" << endl;
+		cout << "보유 MP 포션 : " << CR[a].ITEM[b][1] << endl;
+		break;
+
+	case 2:
+		CR[a].ITEM[b][1] -= c;
+		cout << "검 " << c << "개 판매완료" << endl;
+		cout << "보유 검 갯수 : " << CR[a].ITEM[b][1] << endl;
+		break;
+
+	case 3:
+		CR[a].ITEM[b][1] -= c;
+		cout << "방패 " << c << "개 판매완료" << endl;
+		cout << "보유 방패 갯수 : " << CR[a].ITEM[b][1] << endl;
+		break;
+
+	case 4:
+		CR[a].ITEM[b][1] -= c;
+		cout << "지팡이 " << CR[a].ITEM[b][1] << "개 판매완료" << endl;
+		cout << "보유 지팡이 갯수 : " << CR[a].ITEM[b][1] << endl;
+		break;
+	}
+}
+
+// pointer 기초
+// %p, &, *x, *(&x)
+// 
+void Pointer_test(int* pnum, int size) {
+	int *pt = pnum;
+
+	printf("size = %d\n", size);
+	for (int i = 0; i < size; i++) {
+		printf("pt[%d] = %d\n", i, *(pt + i));
+	}
+}
+int main()
+{   
+	int x = 0, y = 10;
+	
+	int p = x;
+	int* pt = &x;
+
+	printf(" %d %p\n", x, &x);		// %d는 x의 값, %p x의 주소 값
+	printf(" %d %d\n", x, *pt);
+	printf(" %d %p\n", x, pt);
+
+	pt = &y;
+	printf(" %d %d\n", y, *(&y));	// &y는 주소 값을 표시 *(&y) 해당 주소의 값을 출력
+	printf(" %d %p\n", y,  pt);	
+	printf(" %d %d\n", y, *pt);
+
+
+	int num[4] = { 10, 20, 30, 40 };  
+	int* pt1 = num;
+	printf("%p %d\n", pt1 + 3, *(pt1 + 3));
+
+	printf("num[0] = %d, *num[0] = %p, num[1] = %d, *num[1] = %p\n", num[0], &num[0], num[1], &num[1]);
+	printf("num[2] = %d, *num[2] = %p, num[3] = %d, *num[3] = %p\n", num[2], &num[2], num[3], &num[3]);
+  // num[i]의 주소와 값 확인 
+  // int 주소의 값이 4차이씩 난다.
+
+	Pointer_test(num,4);
+
+	/*
+	for (int i = 0; i < 4; i++) {  // num[i]와 *(pt1+i)는 같다.
+		printf("num[%d] = %d\n", i, num[i]);
+		
+		printf("num[%d] = %d\n", i, *(pt1+i));
+	}*/
+	return 0;
+}
+
+
+
+
