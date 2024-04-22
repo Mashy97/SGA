@@ -20,7 +20,7 @@ int main()
 	int* py = &y;
 
 	h_swap(x, y); // 하드코딩 swap
-	p_swap(x, y); // pointer를 사용하여 swap
+	p_swap(px, py); // pointer를 사용하여 swap
   // 하드코딩 방법으로는 h_swap 이후 x, y 값의 변경이 없다.
   // 포인터를 이용한 방법으로는 p_swap 이후 x, y 값의 변경이 있다.
   // h_swap의 작동시의 a, b의 값은 다른 주소에 저장이 된다.
