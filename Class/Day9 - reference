@@ -1,0 +1,81 @@
+// 24.04.23 Day9
+// SGA C++ unreal class
+// visual studio 2022
+
+// reference - 참조자
+// 0423.cpp
+int main()
+{   // reference - 참조자
+    // reference는 대상에 다른 이름을 붙여주는 것 - 별명 또는 별칭
+    int x = 10;          
+    int& rx = x;            // reference 선언 시 참조 변수와 연결해야한다.
+    cout << rx << endl;
+
+    int y = 20;
+    rx = y;                 // rx에 값 대입
+
+    cout << x << endl;      // rx의 값을 변경 시 x의 값도 변경
+
+    cout << "주소값 비교 " << &x << "\t" << &rx << endl;     // &x == &rx 주소도 일치한다.
+    cout << "변수값 비교 " << x << "\t" << rx << endl;       // &x == &rx 주소도 일치한다.
+
+    change_Value(x);        // x의 값을 변경
+
+    cout << "주소값 비교 " << &x << "\t" << &rx << endl;     // x의 값을 변경시 rx의 값도 변경
+    cout << "변수값 비교 " << x << "\t" << rx << endl;  
+
+    Rswap(x, y);            // Reference swap으로 x, y 의 값 변경
+
+    cout << "x : " << x << ", y : " << y << endl; // pointer swap과 같이 x, y 값이 변경되어 나옴
+
+}
+
+// Util.cpp
+#include "Util.h"
+
+int change_Value(int& x) {
+    x = 3;
+    return 0;
+}
+
+// normal swap
+int swap(int x, int y) {
+    int temp;
+    temp = x;
+    y = x;
+    y = temp;
+
+    return 0;
+}
+
+// pointer swap
+int Pswap(int* x, int* y) {
+    int temp;
+    temp = *x;
+    *y = *x;
+    *y = temp;
+
+    return 0;
+}
+
+// reference swap
+int Rswap(int& Rx, int& Ry) {
+    int temp;
+    temp = Rx;
+    Rx = Ry;
+    Ry = temp;
+
+    return 0;
+}
+
+// Util.h
+#pragma once
+#include <iostream>
+#define _CRT_SECURE_NO_WARNINGS
+
+using namespace std;
+
+int change_Value(int& x);
+int swap(int x, int y);
+int Pswap(int* x, int* y);
+int Rswap(int& Rx, int& Ry)
