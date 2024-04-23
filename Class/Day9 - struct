@@ -1,0 +1,98 @@
+// 24.04.23 Day9
+// SGA C++ unreal class
+// visual studio 2022
+
+// struct - 구조체
+int main()
+{   
+    // Character struct 생성
+    struct Character {
+        string Cname;           // 캐릭터 이름
+        int HP;                 // 체력
+        int MP;                 // 마나
+        int Speed;              // 이동 속도
+        int Jump_height;        // 점프력
+        int Inventory[10][2] = {};   // 인벤토리
+        int Cnum;               // 캐릭 번호
+    };
+   
+    // Weapon struct 생성
+    struct Weapon {
+        string Wname;   // 무기 이름
+        int Attack;     // 무기 공격력
+        int Defence;    // 무기 방어력
+        float Weight;   // 무게
+        int Wnum;       // 무기 번호
+    };
+
+    // weapon 초기화
+    static Weapon weapon[10] = {};
+    // character 초기화
+    static Character character[3] = {};
+
+    srand((unsigned int)time(NULL));
+    int Wcount = 0; // 무기 Count
+    int Ccount = 0; // 캐릭터 Count
+    int check = 0;
+
+    bool Wbool = true;
+
+    while (Wbool) {
+        switch (check)
+        {
+        case 0:
+            break;
+        case 1:
+            cout << " 무기 생성 " << endl;
+            for (int i = Wcount; i == Wcount;) {
+                cout << "name : ";
+                cin >> weapon[i].Wname;
+                cout << "ATK : ";
+                cin >> weapon[i].Attack;
+                cout << "DEF : ";
+                cin >> weapon[i].Defence;
+                cout << "WEI : ";
+                cin >> weapon[i].Weight;
+                Wcount++;
+                weapon[i].Wnum = Wcount;
+            }
+            break;
+        case 2:
+            for (int i = 0; i < Wcount; i++) {
+                cout << "name : " << weapon[i].Wname << "\t" << "ATK : " << weapon[i].Attack << "DEF : " << weapon[i].Defence << "WEI : " << weapon[i].Weight  << "KIND : " << weapon[i].Wnum << endl;
+            }
+            break;
+
+        case 3: 
+            cout << " 캐릭터 생성 " << endl;
+            for (int i = Ccount; i == Ccount;) {
+                cout << "name : ";
+                cin >> character[i].Cname;            
+                character[i].HP = rand() % 101;
+                cout << "HP : " << character[i].HP << endl; 
+                character[i].MP = rand() % 51;
+                cout << "MP : " << character[i].MP << endl;
+                character[i].Speed = rand() % 11;
+                cout << "Speed : " << character[i].Speed << endl;                character[i].Jump_height = rand() % 51;
+                cout << "Jump_height : " << character[i].Jump_height << endl;
+
+                Ccount++;
+                character[i].Cnum = Ccount;
+            }
+
+        case 4:
+            cout << " 캐릭터 정보" << endl;
+            for (int i = 0; i < Ccount; i++) {
+                cout << "name : " << character[i].Cname << "HP : " << character[i].HP << "MP : " << character[i].MP << "Speed : " << character[i].Speed << "Jump : " << character[i].Jump_height << "Inventory : " << character[i].Inventory << "Cnum : " << character[i].Cnum << endl;
+            }
+        default:
+            break;
+        }
+        cout << "메인 : 0, 무기 생성 : 1, 무기 확인 : 2, 캐릭터 생성 3: 나가기 : 9" << endl;
+        cout << "선택 : ";
+        cin >> check;
+        if (check == 9) {
+            Wbool = false;
+        }
+    }
+}
