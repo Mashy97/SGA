@@ -10,8 +10,8 @@
 int main()
 {	
 	StartGame();		// 게임 초기화, 화면 모드 세팅 -> 그래픽모드 풀스크린
-					      	// 콘솔창 사이즈 모드, 마우스
-					      	// 데이터 로딩, 사운드 로딩
+						// 콘솔창 사이즈 모드, 마우스
+						// 데이터 로딩, 사운드 로딩
 
 	bool Wbool = true;	// while_bool
 	while (Wbool) {
@@ -22,13 +22,27 @@ int main()
 	EndGame();			// 게임 종료 - 메모리 초기화 
 }
 
+
 // GameEngine.cpp
 #include "stdafx.h"
 #include "GameEngine.h"
 
+char mapData[MAP_WIDTH * MAP_HEIGHT] = {0, };
+
+void FillData(char* str, char str_s, int max_size) {	// 화면 채우기 및 초기화
+	for (int i = 0; i < max_size; i++) {
+		*(str + i) = str_s;
+	}
+}
+
 int StartGame() {		// 게임 초기화
 	SetConsole();
+	srand((unsigned int)time(NULL));		// rand 시드 값 Time으로 설정
+
+
 	cout << "StartGame" << endl;
+
+	FillData(mapData, ' ', MAP_WIDTH * MAP_HEIGHT);
 	return 0;
 };		
 
@@ -37,18 +51,22 @@ int EndGame(){			// 게임 종료 - 메모리 초기화
 	return 0;
 }
 int UpdateGame() {		// 게임 화면 갱신
+
 	cout << "UpdateGame" << endl;
+	
+	puts(mapData);
+
 	return 0;
 }
 
 void SetConsole() {
 	system("mode con:cols=96 lines=32");
 	system("title MINIGAME");
-	HANDLE hConsole;						              	// HANDLE -  HANDLE은 리소스의 메모리 주소를 정수로 치환한 값
-	CONSOLE_CURSOR_INFO ConsoleCursor;		    	// 응용 프로그램은 리소스에 포인터로 접근 불가하지만 HANDLE로 해당 데이터 사용 가능
+	HANDLE hConsole;							// HANDLE -  HANDLE은 리소스의 메모리 주소를 정수로 치환한 값
+	CONSOLE_CURSOR_INFO ConsoleCursor;			// 응용 프로그램은 리소스에 포인터로 접근 불가하지만 HANDLE로 해당 데이터 사용 가능
 	hConsole = GetStdHandle(STD_OUTPUT_HANDLE); // 마우스 커서를 컨트롤 하는 명령어
 
-	ConsoleCursor.bVisible = 0;				         	// 마우스 커서 표시 설정 ( 0 - 안보임 , 1 - 보임 )
+	ConsoleCursor.bVisible = 0;					// 마우스 커서 표시 설정 ( 0 - 안보임 , 1 - 보임 )
 	ConsoleCursor.dwSize = 1;
 	SetConsoleCursorInfo(hConsole, &ConsoleCursor);
 
@@ -56,12 +74,16 @@ void SetConsole() {
 
 // GameEngine.h
 #pragma once
-#include "stdafx.h"
+#define MAP_WIDTH 96
+#define MAP_HEIGHT 32
+
+extern char mapData[MAP_WIDTH * MAP_HEIGHT];
 
 int StartGame();		// 게임 초기화
 int EndGame();			// 게임 종료 - 메모리 초기화
 int UpdateGame();		// 게임 화면 갱신
 void SetConsole();		// 콘솔 화면 설정
+void FillData(char* str, char str_s, int max_size);	// 화면 채우기 및 초기화
 
 // stdafx.h
 #pragma once
