@@ -1,0 +1,68 @@
+// 24.04.24 Day10
+// SGA C++ unreal class
+// visual studio 2022
+
+// struct, class 차이점
+// 0424.cpp
+#include "Util.h"
+int main()
+{
+	
+	User mydata = {"홍길동",0,80,70,50,65};
+	mydata.total_score();
+	int avg = mydata.Average();
+
+	cout << "총점 : " << mydata.total << endl;
+	cout << "평균 : " << mydata.avg << endl;
+
+	UserData data = {};
+	data.name = "test";
+	data.Kscore = 100;
+	data.Escore = 100;
+	data.Mscore = 100;
+	data.Sscore = 100;
+	data.total_score();
+	data.Average();
+	data.print_Total();
+	data.print_Average();
+	
+}
+
+// Util.h
+#pragma once
+#define _CRT_SEVURE_NO_WARNINGS
+#include <iostream>
+#include <string>
+using namespace std;
+
+struct User {            // struct는 기본 함수, 변수 생성시 Public  
+	string UName;
+	int UNUM;
+	unsigned int Kscore;
+	unsigned int Escore;
+	unsigned int Mscore;
+	unsigned int Sscore;
+	int total;
+	int avg;
+	// 
+	void total_score();
+	int Average();
+};
+
+class UserData          // class는 기본 함수, 변수 생성시 private 
+{                       // public은 미리 선언 해주어야 사용가능
+private:                // private 
+	int UNUM;             // UserData.UNUM는 UNUM이 Private 선언이라 불가능 
+	int total;
+	int avg;
+public:
+	string name;
+	unsigned int Kscore;
+	unsigned int Escore;
+	unsigned int Mscore;
+	unsigned int Sscore;
+	void total_score();
+	int Average();
+	void print_Total();
+	void print_Average();
+};
