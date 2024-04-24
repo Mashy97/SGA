@@ -6,7 +6,6 @@
 // MiniGame - Day1
 // MiniGame.cpp
 #include "stdafx.h"
-
 int main()
 {	
 	StartGame();		// 게임 초기화, 화면 모드 세팅 -> 그래픽모드 풀스크린
@@ -62,11 +61,11 @@ int UpdateGame() {		// 게임 화면 갱신
 void SetConsole() {
 	system("mode con:cols=96 lines=32");
 	system("title MINIGAME");
-	HANDLE hConsole;							// HANDLE -  HANDLE은 리소스의 메모리 주소를 정수로 치환한 값
-	CONSOLE_CURSOR_INFO ConsoleCursor;			// 응용 프로그램은 리소스에 포인터로 접근 불가하지만 HANDLE로 해당 데이터 사용 가능
+	HANDLE hConsole;			    // HANDLE -  HANDLE은 리소스의 메모리 주소를 정수로 치환한 값
+	CONSOLE_CURSOR_INFO ConsoleCursor;	    // 응용 프로그램은 리소스에 포인터로 접근 불가하지만 HANDLE로 해당 데이터 사용 가능
 	hConsole = GetStdHandle(STD_OUTPUT_HANDLE); // 마우스 커서를 컨트롤 하는 명령어
 
-	ConsoleCursor.bVisible = 0;					// 마우스 커서 표시 설정 ( 0 - 안보임 , 1 - 보임 )
+	ConsoleCursor.bVisible = 0;		    // 마우스 커서 표시 설정 ( 0 - 안보임 , 1 - 보임 )
 	ConsoleCursor.dwSize = 1;
 	SetConsoleCursorInfo(hConsole, &ConsoleCursor);
 
