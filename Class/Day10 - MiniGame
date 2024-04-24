@@ -9,8 +9,8 @@
 int main()
 {	
 	StartGame();		// 게임 초기화, 화면 모드 세팅 -> 그래픽모드 풀스크린
-						// 콘솔창 사이즈 모드, 마우스
-						// 데이터 로딩, 사운드 로딩
+				// 콘솔창 사이즈 모드, 마우스
+				// 데이터 로딩, 사운드 로딩
 	bool Wbool = true;	// while_bool
 	while (Wbool) {
 		UpdateGame();	//
@@ -50,7 +50,7 @@ int UpdateGame() {		// 게임 화면 갱신
 	return 0;
 }
 
-void SetConsole() {
+void SetConsole() {		// 콘솔 화면 설정
 	system("mode con:cols=96 lines=32");
 	system("title MINIGAME");
 	HANDLE hConsole;			    // HANDLE -  HANDLE은 리소스의 메모리 주소를 정수로 치환한 값
