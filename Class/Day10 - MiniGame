@@ -11,13 +11,11 @@ int main()
 	StartGame();		// 게임 초기화, 화면 모드 세팅 -> 그래픽모드 풀스크린
 						// 콘솔창 사이즈 모드, 마우스
 						// 데이터 로딩, 사운드 로딩
-
 	bool Wbool = true;	// while_bool
 	while (Wbool) {
 		UpdateGame();	//
 		break;
 	}
-
 	EndGame();			// 게임 종료 - 메모리 초기화 
 }
 
@@ -37,10 +35,7 @@ void FillData(char* str, char str_s, int max_size) {	// 화면 채우기 및 초
 int StartGame() {		// 게임 초기화
 	SetConsole();
 	srand((unsigned int)time(NULL));		// rand 시드 값 Time으로 설정
-
-
 	cout << "StartGame" << endl;
-
 	FillData(mapData, ' ', MAP_WIDTH * MAP_HEIGHT);
 	return 0;
 };		
@@ -50,11 +45,8 @@ int EndGame(){			// 게임 종료 - 메모리 초기화
 	return 0;
 }
 int UpdateGame() {		// 게임 화면 갱신
-
 	cout << "UpdateGame" << endl;
-	
 	puts(mapData);
-
 	return 0;
 }
 
