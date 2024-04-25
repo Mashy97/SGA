@@ -1,0 +1,73 @@
+// 24.04.25 Day11
+// SGA C++ unreal class
+// visual studio 2022
+
+// class를 사용하여 사각형 원 둘레, 넓이 구하기
+#include "stdafx.h"
+
+#define PI 3.14 // PI = 3.14 설정
+
+class Rectangle {	// 사각형 class
+private:
+	int Area;
+	int Dul;
+public:
+	int width = 0;
+	int height = 0;
+	int	getArea();
+	int getDul();
+};
+
+int Rectangle::getArea() {
+	Area = (width * height);
+	return Area;
+}
+
+int Rectangle::getDul() {
+	Dul = (width + height) * 2;
+	return Dul;
+}
+
+class Circle {		// 원 class
+private:
+	float area;
+	float dul;
+public:
+	int radius;
+	double getArea();
+	double getDul();
+};
+
+#include "stdafx.h"
+double Circle::getArea() {
+	area = PI * radius * radius;
+	return area;
+}
+
+double Circle::getDul() {
+	dul = 2 * PI * radius;
+	return dul;
+}
+// 클래스를 이용하여 사각형 둘레, 넓이 구하기
+int main()
+{
+	Rectangle rect = {};
+	rect.width = 3;
+	rect.height = 5;
+	cout << "사격형의 면적는 " << rect.getArea() << endl;
+	cout << "사격형의 둘레는 " << rect.getDul() << endl;
+	cout << "============================" << endl;
+	
+	Circle donut = {};
+	donut.radius = 1;
+	cout << "donut의 면적은 " << donut.getArea() << endl;
+	cout << "donut의 둘레는 " << donut.getDul() << endl;
+	cout << "============================" << endl;
+
+	Circle pizza = {};
+	pizza.radius = 30;
+	cout << "pizza의 면적은 " << pizza.getArea() << endl;
+	cout << "pizza의 둘레는 " << pizza.getDul() << endl;
+
+	return 0;
+}
