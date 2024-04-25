@@ -1,0 +1,127 @@
+// 24.04.25 Day11
+// SGA C++ unreal class
+// visual studio 2022
+
+// main.cpp
+#include "stdafx.h"
+#include <iomanip>
+// 클래스를 이용하여 사각형 둘레, 넓이 구하기
+int main()
+{
+
+	cout << setprecision(10);
+
+	Rectangle trect(3, 5);	// rect.width = 3; rect.height = 5;
+
+	cout << "trect의 면적은 " << trect.getArea() << endl;
+	cout << "trect의 둘레는 " << trect.getDul() << endl;
+	cout << "============================" << endl;
+
+	Circle donut(1);		// donut.radius = 1;
+	cout << "donut의 면적은 " << donut.getArea() << endl;
+	cout << "donut의 둘레는 " << donut.getDul() << endl;
+	cout << "============================" << endl;
+
+	Circle pizza(30);		// pizza.radius = 30;
+	cout << "pizza의 면적은 " << pizza.getArea() << endl;
+	cout << "pizza의 둘레는 " << pizza.getDul() << endl;
+
+	return 0;
+}
+
+// Rectangle.cpp
+#include "Rectangle.h"
+#include "stdafx.h"
+int Rectangle::getArea() {
+	Area = (width * height);
+	return Area;
+}
+
+int Rectangle::getDul() {
+	Dul = (width + height) * 2;
+	return Dul;
+}
+
+// 생성자
+Rectangle::Rectangle() {
+	cout << "생성" << endl;
+}
+
+Rectangle::Rectangle(int w, int h) {
+	cout << "생성" << endl;
+	width = w;
+	height = h;
+}
+// 소멸자
+Rectangle::~Rectangle() {
+	cout << "소멸" << endl;
+}
+// Ractangle.h
+#pragma once
+
+// 사각형 대한 클래스
+class Rectangle {
+private:
+	int Area = 0;
+	int Dul = 0;
+	int width = 0;
+	int height = 0;
+public:
+	Rectangle();	// 생성자
+	Rectangle(int w, int h);
+	~Rectangle();	// 소멸자
+	int	getArea();
+	int getDul();
+};
+
+// Circle.cpp
+#include "Circle.h"
+#include "stdafx.h"
+double Circle::getArea() {
+	area = PI * radius * radius;
+	return area;
+}
+
+double Circle::getDul() {
+	dul = 2 * PI * radius;
+	return dul;
+}
+
+Circle::Circle() {
+	cout << "생성" << endl;
+}
+
+Circle::Circle(int r) {
+	cout << "생성" << endl;
+	radius = r;
+}
+Circle::~Circle() {
+	cout << "소멸" << endl;
+}
+
+// Circle.h
+#pragma once
+
+class Circle {
+private:
+	double area = 0;
+	double dul = 0;
+	int radius = 0;
+public:
+	double getArea();
+	double getDul();
+	Circle();
+	Circle(int r);
+	~Circle();
+};
+
+// stdafx.h
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS
+#define PI 3.141592
+#include <iostream>
+#include <string>
+#include "Rectangle.h"
+#include "Circle.h"
+
+using namespace std;
