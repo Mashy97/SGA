@@ -1,0 +1,24 @@
+// 24.04.29 Day12
+// SGA C++ unreal class
+// visual studio 2022
+
+1. Class - 생성자, 소멸자
+
+2. Class 변수 생성
+1) 단일 생성
+  - Rectangle rect;
+2) 배열 생성
+  - Rectangle a_rect[3];
+3) 포인터 생성
+  a. 메모리 생성 ( New 사용하면 메모리 생성 )
+    - Rectangle* p_rect = New Rectangle();
+    - Rectaggle* pa_rect = New Rectangle[3];
+  b. 메모리 해제 ( delete를 사용하여 메모리 해제 )
+    - delete p_rect;
+    - delete[] pa_rect;
+3. 배열 포인터 주소
+1) 배열 및 포인터
+  pa_rect[i].Area(); == ( pa_rect + i ) -> Area(); 결과는 동일하다
+  pa_rect[i].Area();- 배열을 직접 나타내며 값을 입력
+  ( pa_rect + i ) -> Area(); - 배열의 주소를 나타내며 해당 주소에 값을 입력
+// 결과는 같으나 pa_rect는 포인터 형태이기 때문에 ( pa_rect + i )를 사용하는 것을 추천한다.
