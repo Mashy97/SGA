@@ -1,0 +1,45 @@
+// 24.05.01 Day14
+// SGA C++ unreal class
+// visual studio 2022
+
+virtual function - 파생 클래스에서 재정의할 것으로 기대하는 멤버 함수를 의미
+예제)
+class A
+{
+public:
+  virtual void Print() { cout << "A 클래스의 Print() 함수" << endl; }  // A class Print() 선언, 정의
+};
+  
+// class 자식 public 부모
+class B : public A
+{
+  virtual void Print() { cout << "B 클래스의 Print() 함수" << endl; } // B class Print() 선언, 정의
+};
+
+class C : public A
+{
+                  // 선언, 정의 x
+};
+  
+int main(void)
+{
+    A* ptr;
+    A obj_a;
+    B obj_b;
+    C obj_c;
+  
+    ptr = &obj_a;
+    ptr->Print();  // "A 클래스의 Print() 함수" 출력
+  
+    ptr = &obj_b;  // Class B는 Print() 재정의 o 
+    ptr->Print();  // "B 클래스의 Print() 함수" 출력
+
+    ptr = &obj_c;  // Class C는 Print() 재정의 x
+    ptr->Print();  // "A 클래스의 Print() 함수" 출력
+  
+    return 0;
+
+}
+
+자식에게 Print 함수가 정의되어 있다면 자식의 Print 함수를 사용하며
+만약 자식에게 Print 함수가 재정의 되지 않았다면 부모의 Print 함수를 사용한다.
