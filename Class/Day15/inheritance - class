@@ -1,0 +1,36 @@
+// 24.05.02 Day15
+// SGA C++ unreal class
+// visual studio 2022
+
+=========================================================================================
+
+const - 변하지 않는 값을 뜻함.
+변수는 한번 지정하면 값의 변경이 가능하지만 상수는 한번 지정하면 값의 변경이 불가능하다.
+  
+  ex) virtual void funtion() const {} - 부모 클래스
+  ex) void function() const override {} - 자식 클래스
+  부모 클래스와 자식 클래스의 function() 값의 변경되지 않도록 한다.
+
+=========================================================================================
+
+inheritance protected - 파생 클래스의 접근을 허가하는 접근 지정자
+  inheritance - 상속
+  ex) class Child : public Parent{ }
+  상속은 한 클래스가 다른 클래스에서 정의된 속성, 함수를 이어서 사용하는 것
+  코드 중복 방지, 다형성을 활용한 디자인
+
+  protected , private
+  ex) class Parent { protected:  int a; private: int b; }
+  private는 파생 클래스 및 외부에서 b에 대한 접근을 불가하며 자신의 클래스에서만 접근이 가능하다.
+  하지만 protected는 Parent를 상속받은 파생 클래스는 a의 접근을 가능하게 한다.
+
+=========================================================================================
+
+Virtual Function - 파생 클래스에서 재정의할 것으로 기대하는 멤버 함수를 의미
+
+  ex) virtaul void funtion() override {}
+  virtual 함수를 받을 때 override를 사용하는 이유? 컴파일 시 사전 오류를 발견하기 위함
+  1. 부모 클래스를 상속받지 못한 경우
+  2. virtual 함수에 접근하지 못하는 경우
+  3. 컴파일러가 부모 Class에서 override 된 함수가 맞는지 확인
+  4. virtual 함수가 아닌 경우는 컴파일러가 에러를 발생
