@@ -2,10 +2,10 @@
 SGA C++ unreal Class
 
 
-1. C++ 기초  [x]
+C++ 기초 [ ]
 
-2. Unreal Engine 기초  [ ]
+Unreal Engine 기초  [ ]
 
-3. 2D 게임 개발  [ ]
-  
-4. 3D 게임 개발  [ ]
+2D 게임 개발  [ ]
+
+3D 게임 개발  [ ]
