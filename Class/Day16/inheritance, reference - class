@@ -1,0 +1,6 @@
+// 24.05.07 Day16
+// SGA C++ unreal class
+// visual studio 2022
+
+inherutance, virtual 등을 활용하여 복습
+animal class에서 상속 받아 각 동물의 소리 출력
