@@ -1,0 +1,40 @@
+// 24.05.08 Day17
+// SGA C++ unreal class
+// visual studio 2022
+
+가상 클래스 
+자식 클래스에서 재정의할 것으로 기대하는 멤버 함수를 의미
+자식 클래스에서 선언 및 정의를 하지 않아도 오류가 생기지 않는다.
+ex) void virtual PlaySound();
+
+순수 가상 클래스 - 순수 가상 함수를 가지고 있는 클래스
+virtual 함수에 = 0; 있다면 상속받는 모든 Class 들은 해당 함수를 구현해야 한다.
+즉, 선언만 해두고 정의는 자식 클래스에게 강요
+ex) void virtual PlaySound() = 0;
+
+class Animal {                     // 부모 클래스 Animal
+  void virtual PlaySound() = 0;    // = 0으로 선언 하였다면
+}        
+
+class Cat                          // Animal을 상속 받은 자식 클래스 Cat
+: public Animal{
+  void PlaySound {                 // 만약 PlaySound를 선언 및 정의하였기 때문에 오류 발생 x
+    std::cout << "Cat::PlaySound" << std::endl;   
+  }
+}
+
+class Dog                          // Animal을 상속 받은 자식 클래스 Dog
+: public Animal{                   // PlaySound를 선언 및 정의하지 않았기 때문에 오류 발생
+  
+}
+
+파일 입출력
+fstream - 입출력, istream - 입력, ostream - 출력
+fstream File("example.txt");  // fstream, ifstream, ofstream을 사용하여 파일 지정이 가능하다.
+File.is_open()을 사용하여 파일을 열고
+File.close()를 사용하여 파일을 닫는다. 만약 파일을 닫아주지 않는다면 오류가 발생
+File.seekg(0) // 해당 줄(0)로 이동한다
+
+CSV ( Comma - Separated Values )
+쉼표를 기준으로 데이터의 값을 분할하며 쉼표를 기준으로 데이터를 나누며 데이터를 가공하기 쉽도록 변환이 가능하다.
+
