@@ -31,10 +31,20 @@ class Dog                          // Animal을 상속 받은 자식 클래스 D
 파일 입출력
 fstream - 입출력, istream - 입력, ostream - 출력
 fstream File("example.txt");  // fstream, ifstream, ofstream을 사용하여 파일 지정이 가능하다.
+ex) fstream File ("example.txt", std::ios::in | std::ios::out | std::ios::app ); // example.txt 파일에 대한 입력, 출력, 추가 선언 
 File.is_open()을 사용하여 파일을 열고
-File.close()를 사용하여 파일을 닫는다. 만약 파일을 닫아주지 않는다면 오류가 발생
-File.seekg(0) // 해당 줄(0)로 이동한다
+File.close()를 사용하여 파일을 닫는다. 만약 파일을 닫아주지 않는다면 오류 또는 저장되지 않는다.
+File.seekg(0) // seekg는 출력 위치 지정자를 설정하며 원하는 위치를 설정이 가능하다. 
 
 CSV ( Comma - Separated Values )
 쉼표를 기준으로 데이터의 값을 분할하며 쉼표를 기준으로 데이터를 나누며 데이터를 가공하기 쉽도록 변환이 가능하다.
+
+
+
+
+
+
+
+
+
 
