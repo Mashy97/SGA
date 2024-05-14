@@ -35,14 +35,14 @@ void main_screan() {
 
 void menu_screan() {
 	cout << " ================================= " << endl;
-	cout << " ë©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš”" << endl;
-	cout << " ë©”ì¸ í™”ë©´ : 0" << endl;
-	cout << " ì „ì²´ ìŒì•… : 1" << endl;
-	cout << " ìž¥ë¥´ ì„ íƒ : 2" << endl;
-	cout << " ê°€ìˆ˜ ê²€ìƒ‰ : 3" << endl;
-	cout << " ìŒì•… ìž¬ìƒ : 4" << endl;
+	cout << " ¸Þ´º¸¦ ¼±ÅÃÇÏ¼¼¿ä" << endl;
+	cout << " ¸ÞÀÎ È­¸é : 0" << endl;
+	cout << " ÀüÃ¼ À½¾Ç : 1" << endl;
+	cout << " Àå¸£ ¼±ÅÃ : 2" << endl;
+	cout << " °¡¼ö °Ë»ö : 3" << endl;
+	cout << " À½¾Ç Àç»ý : 4" << endl;
 	cout << "   EXIT   : 99" << endl;
-	cout << " ìž…ë ¥ ìˆ«ìž : ";
+	cout << " ÀÔ·Â ¼ýÀÚ : ";
 }
 
 void select_genre() {
@@ -50,7 +50,7 @@ void select_genre() {
 	string str;
 	
 	cout << " ================================= " << endl;
-	cout << " ì›í•˜ëŠ” ìž¥ë¥´ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ";
+	cout << " ¿øÇÏ´Â Àå¸£¸¦ ÀÔ·ÂÇÏ¼¼¿ä : ";
 	cin >> str;
 	for (int i = 0; i < myMusic.size(); i++) {
 		if (myMusic[i].getGenre().find(str) != string::npos) {
@@ -66,9 +66,9 @@ void search_vocal() {
 
 	string vocal;
 	cout << " ================================= " << endl;
-	cout << " ê°€ìˆ˜ ì´ë¦„ì„ ìž…ë ¥í•˜ì„¸ìš” : ";
+	cout << " °¡¼ö ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ";
 	cin >> vocal;
-	cout << vocal << "ì˜ ìŒì•… ë¦¬ìŠ¤íŠ¸ " << endl;
+	cout << vocal << "ÀÇ À½¾Ç ¸®½ºÆ® " << endl;
 	for (int i = 0; i < 100; i++) {
 		if (myMusic[i].getSinger().find(vocal) != string::npos ) {
 			cout << myMusic[i].getTitle() << " // " << myMusic[i].getReleaseDate() << endl;
@@ -82,7 +82,7 @@ void play_music() {
 
 	string name;
 	cout << " ================================= " << endl;
-	cout << " ë…¸ëž˜ ì œëª©ì„ ìž…ë ¥í•˜ì„¸ìš” : ";
+	cout << " ³ë·¡ Á¦¸ñÀ» ÀÔ·ÂÇÏ¼¼¿ä : ";
 	cin >> name;
 	for (int i = 0; i < 100; i++) {
 		if (myMusic[i].getTitle().find(name) != string::npos) {
@@ -96,8 +96,8 @@ void all_music() {
 	myUtil.LoadMusicData("MusicBaseData.csv", myMusic);
 
 	cout << " ================================= " << endl;
-	cout << " =========== ì „ì²´ ë…¸ëž˜ =========== " << endl;
-	cout << "ì œëª©" << "\t" << "ê°€ìˆ˜" << "\t" << "ìž¥ë¥´" << endl;
+	cout << " =========== ÀüÃ¼ ³ë·¡ =========== " << endl;
+	cout << "Á¦¸ñ" << "\t" << "°¡¼ö" << "\t" << "Àå¸£" << endl;
 	for (int i = 0; i < 100; i++) {
 		cout << myMusic[i].getTitle() << "\t" << myMusic[i].getGenre()<< endl;
 	}

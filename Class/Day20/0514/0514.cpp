@@ -1,7 +1,7 @@
 ﻿#include "stdafx.h"
 #include "Music.h"
 #include "Util.h"
-#include "title.h"
+#include "Title.h"
 
 int main(){
 

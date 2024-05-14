@@ -69,7 +69,7 @@ int vector(){
 
 	// const_cast 사용
 	const int* cpInt = myInt.data();
-	*(cpInt + 0) = 500;		// 오류 - const로 지정된 값은 const_cast이외의 방법으로 수정이 불가능
+	//*(cpInt + 0) = 500;		// 오류 - const로 지정된 값은 const_cast이외의 방법으로 수정이 불가능
 	
 	int* ptr = const_cast<int*>(cpInt);	// ptr이 cpInt를 수정이 가능하도록 const_cast로 정의
 	*(ptr + 0) = 800;		// 정상 작동 
