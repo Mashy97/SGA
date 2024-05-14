@@ -1,18 +1,12 @@
 ﻿#include "stdafx.h"
 #include "Music.h"
 #include "Util.h"
+#include "title.h"
 
 int main(){
 
-	vector<Music> myMusics;
-
-	Util myUtil;
-
-	myUtil.LoadMusicData("MusicBaseData.csv", myMusics);
-
-	for (int i = 0; i < myMusics.size(); i++)
-		cout << myMusics[i].getGenre() << endl;
-
+	Title title;
+	title.scean();
 
 	return 0;
 }
