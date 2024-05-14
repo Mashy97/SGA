@@ -1,6 +1,8 @@
 #include "Util.h"
 
 vector<Music> myMusic;
+Util myUtil;
+
 
 void lineSeparator(){
     std::cout << "\n----------------------------------------------------------------------------------------------------\n";
@@ -33,50 +35,70 @@ void main_screan() {
 
 void menu_screan() {
 	cout << " ================================= " << endl;
-	cout << " ¸Þ´º¸¦ ¼±ÅÃÇÏ¼¼¿ä" << endl;
-	cout << " ¸ÞÀÎ È­¸é : 0" << endl;
-	cout << " ÀüÃ¼ À½¾Ç : 1" << endl;
-	cout << " Àå¸£ ¼±ÅÃ : 2" << endl;
-	cout << " °¡¼ö °Ë»ö : 3" << endl;
-	cout << " À½¾Ç Àç»ý : 4" << endl;
+	cout << " ë©”ë‰´ë¥¼ ì„ íƒí•˜ì„¸ìš”" << endl;
+	cout << " ë©”ì¸ í™”ë©´ : 0" << endl;
+	cout << " ì „ì²´ ìŒì•… : 1" << endl;
+	cout << " ìž¥ë¥´ ì„ íƒ : 2" << endl;
+	cout << " ê°€ìˆ˜ ê²€ìƒ‰ : 3" << endl;
+	cout << " ìŒì•… ìž¬ìƒ : 4" << endl;
 	cout << "   EXIT   : 99" << endl;
-	cout << " ÀÔ·Â ¼ýÀÚ : ";
+	cout << " ìž…ë ¥ ìˆ«ìž : ";
 }
 
 void select_genre() {
+	myUtil.LoadMusicData("MusicBaseData.csv", myMusic);
+	string str;
+	
+	cout << " ================================= " << endl;
+	cout << " ì›í•˜ëŠ” ìž¥ë¥´ë¥¼ ìž…ë ¥í•˜ì„¸ìš” : ";
+	cin >> str;
+	for (int i = 0; i < myMusic.size(); i++) {
+		if (myMusic[i].getGenre().find(str) != string::npos) {
+			cout << myMusic[i].getTitle() << endl;
+		}
+	}
+
 }
 
 void search_vocal() {
+
+	myUtil.LoadMusicData("MusicBaseData.csv", myMusic);
+
 	string vocal;
 	cout << " ================================= " << endl;
-	cout << " °¡¼ö ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä : ";
+	cout << " ê°€ìˆ˜ ì´ë¦„ì„ ìž…ë ¥í•˜ì„¸ìš” : ";
 	cin >> vocal;
-	cout << vocal << "ÀÇ À½¾Ç ¸®½ºÆ® " << endl;
+	cout << vocal << "ì˜ ìŒì•… ë¦¬ìŠ¤íŠ¸ " << endl;
 	for (int i = 0; i < 100; i++) {
-		if (myMusic[i].getSinger() == vocal) {
-			cout << myMusic[i].getTitle() << " - " << myMusic[i].getReleaseDate() << endl;
+		if (myMusic[i].getSinger().find(vocal) != string::npos ) {
+			cout << myMusic[i].getTitle() << " // " << myMusic[i].getReleaseDate() << endl;
 		}
 	}
 
 }
 
 void play_music() {
+	myUtil.LoadMusicData("MusicBaseData.csv", myMusic);
+
 	string name;
 	cout << " ================================= " << endl;
-	cout << " ³ë·¡ Á¦¸ñÀ» ÀÔ·ÂÇÏ¼¼¿ä : ";
+	cout << " ë…¸ëž˜ ì œëª©ì„ ìž…ë ¥í•˜ì„¸ìš” : ";
 	cin >> name;
 	for (int i = 0; i < 100; i++) {
-		if (myMusic[i].title == name) {
-			myMusic[i].getPlaying();
+		if (myMusic[i].getTitle().find(name) != string::npos) {
+			cout << myMusic[i].getPlaying() << endl;	
+			break;
 		}
 	}
 }
 
 void all_music() {
+	myUtil.LoadMusicData("MusicBaseData.csv", myMusic);
+
 	cout << " ================================= " << endl;
-	cout << " =========== ÀüÃ¼ ³ë·¡ =========== " << endl;
-	cout << "Á¦¸ñ" << "\t" << "°¡¼ö" << "\t" << "Àå¸£" << endl;
+	cout << " =========== ì „ì²´ ë…¸ëž˜ =========== " << endl;
+	cout << "ì œëª©" << "\t" << "ê°€ìˆ˜" << "\t" << "ìž¥ë¥´" << endl;
 	for (int i = 0; i < 100; i++) {
-		cout << myMusic[i].getTitle() << "\t" << myMusic[i].getSinger() << "\t" << myMusic[i].getGenre()<< endl;
+		cout << myMusic[i].getTitle() << "\t" << myMusic[i].getGenre()<< endl;
 	}
 }
