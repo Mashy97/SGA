@@ -1,0 +1,33 @@
+// 24.05.16 Day21
+// SGA C++ unreal class
+// visual studio 2022
+
+namespace- 코드에서 이름 충돌을 방지하기 위해 사용
+namespace 선언 및 형태
+namespace 변수명{    // namespace 선언
+    변수
+}
+ex)
+namespace MyNameSpace{
+  int value = 1000;
+}
+
+namespace의 값을 사용 및 출력할 때 ::을 사용
+ex) std::cout << MyNameSpace::value << std::endl;
+
+using을 사용하여 축약가능하다.
+ex) using namespace MyNameSpace;
+    std::cout << value << std::endl;
+
+하지만 만약 전역변수도 선언이 되어 있다면 using을 사용하여도 MyNameSpace:: 사용
+ex) 
+namespace MyNameSpace{  // namespace
+  int value = 1000;
+}
+int value = 2000;  // global 변수
+int main(){
+   int value = 3000;
+   std::cout << "Local Value : " << value << std::endl;    // 로컬 변수 출력 - 3000
+   std::cout << "Global Value : " << ::value << std::endl;     // 전역 변수 출력 - 2000 
+   std::cout << "NameSpace Value : " << MyNameSpace::value << std::endl;   // namespace 출력 - 1000
+}
