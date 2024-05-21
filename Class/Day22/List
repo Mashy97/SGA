@@ -1,0 +1,31 @@
+// 24.05.21 Day22
+// SGA C++ unreal class
+// visual studio 2022
+
+	std::list
+	구현 - 이중 연결리스트 구현, C++ 표준 라이브러리 컨테이너
+	요소의 삽입과 삭제가 빠르지만, 임의 접근이 느리다.
+
+	형태 list<Type> 변수명
+	선언 및 초기화
+	ex) std::list<int> myList;			// 초기화 사이즈 0
+	  	std::list<std::string> myListS 
+	  	std::list<float> myListF(10);		// 초기화 사이즈 10
+
+      // 요소 추가 - push
+      myList.push_front(4);  // 앞에 추가
+      myList.push_back(6);   // 뒤에 추가
+
+      // 위치 지정  - advance
+      auto it1 = myList.begin(); // 첫 요소의 맨 앞
+    	std::advance(it1, 1);		// it1 += 1;
+
+      // 지정 위치에 요소 추가 - insert
+      myList.insert(it1, 1000);
+
+      // 요소 삭제
+      myList.pop_back();  // 앞에 삭제
+      myList.pop_front();	// 뒤에 삭제
+
+      // 리스트 초기화
+      myList.clear();
