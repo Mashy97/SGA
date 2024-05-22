@@ -16,52 +16,47 @@ int main() {
 		int temp = rand() % 20;
 		number.push_back(temp);
 	}
-//	std::list<int> temp = number;	// temp에 number 초기 값 저장
+	std::list<int> basic_number = number;	// basic_number에 number 초기 값 저장
 
 	for (auto it = number.begin(); it != number.end(); ++it)
 		std::cout << *it << std::endl;
 	std::cout << "======" << std::endl;
 	
+	// 중복 삭제
 	number.sort();			// 정렬
 	number.unique();		// 중복 제거
 
-//	std::list<int> uni_number = number;
+	std::list<int> uni_number = number;	// uni_number에 중복 삭제 결과 저장
+
+	basic_number.sort();
+
+	auto tit = basic_number.begin();	// 
+	std::advance(tit, 1);
+
+	auto uit = uni_number.begin();
+
+	// 중복 삭제 값 확인
+	for (int i = 0; i <= basic_number.size(); i++) {
+		for (int j = 0; j < basic_number.size(); j++) {
+			if (*tit == *uit) {
+				std::cout << *tit << " 삭제" << std::endl;
+				tit = basic_number.erase(tit);
+			}
+			else if (uni_number.size() != 2) {
+				uit = uni_number.erase(uit);
+				tit = basic_number.erase(tit);
+			}
+			else {
+				uit = uni_number.erase(uit);
+			}
+		}
+	}
+	std::cout << "======" << std::endl;
+
+	// 중복 삭제 결과
 
 	for (auto it = number.begin(); it != number.end(); ++it)
 		std::cout << *it << std::endl;
 	std::cout << "======" << std::endl;
 
-	/*
-		sort - 데이터를 정렬하는 역할
-		unique - 데이터의 앞, 뒤 정보를 비교하여 삭제하는 역할
-
-		앞, 뒤를 비교한다고 생각한 이유 
-		list에 { 10, 9, 8, 8, 9, 10, 10 }을 입력하였을 때
-		sort를 사용하지 않고 unique를 사용할 시 리스트 출력 값이 10 9 8 9 10로 나타내는 것으로 확인 
-	 
-		sort를 왜 써야하는가 ?
-		unique를 사용하여 중복을 없애기 위해서는 sort를 사용하여 정렬을 먼저 해야한다.
-
-		이유1. 
-		오름차순, 내림차순으로 정렬을 하지 않고 진행한다면
-		비교 횟수도 많아지고 그에 따라서 더 많은 시스템 자원을 소요하게 된다.
-
-		이유2.
-		데이터가 적다면 비교적 차이는 많이 없지만
-		데이터가 많아진다면 소요되는 시간 역시 증가한다.
-
-		결과 - 전체를 확인하여 중복을 제거하는 것 보다 정렬하고 앞, 뒤를 비교하는 것이 더욱 효율적이기 때문이다.
-
-	**/
-
 }
-
-/*
-123334455
-12345
-
-
-
-
-
-*/
