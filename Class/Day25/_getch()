@@ -3,6 +3,12 @@
 // visual studio 2022
 
 
+// 중복 허용 x, 자동 정렬
+#include <set>
+
+// 중복 허용 x, 자동 정렬 x
+#include <unordered_set>	
+
 Music Management Program
 
 이전 제작한 Music Program 사용 - https://github.com/Mashy97/SGA/tree/main/Class/Day20/0514
