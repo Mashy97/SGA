@@ -3,7 +3,6 @@
 vector<Music> myMusic;
 Util myUtil;
 
-list<Music> index;
 
 void lineSeparator(){
     std::cout << "\n----------------------------------------------------------------------------------------------------\n";
@@ -65,6 +64,8 @@ void search_vocal() {
 
 	myUtil.LoadMusicData("MusicBaseData.csv", myMusic);
 
+	list<Music> index;
+
 	string vocal;
 	cout << " ================================= " << endl;
 	cout << " 가수 이름을 입력하세요 : ";
@@ -123,7 +124,6 @@ void search_vocal() {
 					std::cout << it->getSinger() << "의 음악 리스트" << std::endl;
 					std::cout << it->getTitle() << std::endl;
 					std::cout << " < > 이동" << std::endl;
-
 				}
 			}
 			else {
