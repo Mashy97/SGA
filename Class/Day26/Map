@@ -1,0 +1,20 @@
+// 24.05.27 Day26
+// SGA C++ unreal class
+// visual studio 2022
+
+  map<Key(first),Value>  
+  std::map <int, int> mapInt;     // Map 선언   
+
+  // 선언 및 초기화
+  std::map <int, std::string> mapString = {{1,"Hello"}, {2, "World"}, {30, "Hello World"}};
+
+  // 접근 방법
+  mapInt[Key] = Value;        // mapInt의 key에 value값 저장
+  int temp = mapInt[Key];     // 
+
+  // 요소 삭제
+  map.erase(Key)       // Key에 해당하는 데이터 삭제 
+  mapString.erase(1);  // {1,"Hello"} 삭제
+
+  // 명령어
+  begin(), end(), erase() 등 list, vector, set과 유사
