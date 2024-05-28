@@ -1,0 +1,36 @@
+// 24.05.28 Day27
+// SGA C++ unreal class
+// visual studio 2022
+
+ // 펜과 브러시 생성
+ HPEN hPen = CreatePen(PS_SOLID, 5, RGB(0, 0, 125));
+ HBRUSH hBrush = CreateSolidBrush(RGB(75,125, 0));
+
+ // 펜과 브러시 HDC에 적용
+ HPEN hOldPen = (HPEN)SelectObject(hdc, hPen);
+ HBRUSH hOldBrush = (HBRUSH)SelectObject(hdc, hBrush);
+
+ // 모서리가 둥근 사각형
+ RoundRect(hdc, 50, 50, 200, 200, 20, 20);
+
+ // 원
+ Ellipse(hdc, 50, 50, 200, 200);
+          
+ // 사각형
+ Rectangle(hdc, 75, 75, 175, 175);
+
+ // HDC Text 색상 설정
+ SetTextColor(hdc, RGB(255, 125, 0));
+
+ // 호
+ Arc(hdc, 75, 75, 175, 175, 225, 225, 275, 275);
+ 
+ // 파이 그리기
+ Pie(hdc, 450, 50, 600, 200, 500, 50, 550, 400);
+ 
+ // 코드 - 타원의 호와 그 호를 연결하는 선분으로 둘러쌓인 영역
+ Chord(hdc, 450, 250, 600, 400, 500, 250, 550, 400);
+
+ // 선 그리기
+ MoveToEx(hdc, 500, 500, NULL);  // 시작점
+ LineTo(hdc, 500, 400);  // 끝점
