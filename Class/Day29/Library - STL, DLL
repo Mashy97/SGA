@@ -13,3 +13,13 @@ STL // 표준 템플릿 라이브러리
 DLL // 동적 라이브러리
 동적 라이브러리는 바이러리 파일로 *.dll로 존재
 윈도우 운영체제의 서비스에 의해 올라가서 응용 프로그램이 운영체제 서비스에 DLL 함수 혹은 변수를 요청할 때 함수 혹은 변수를 호출해주는 방식
+ 
+HINSTANCE - dll 파일 확인
+ex) HINSTANCE hinstLib = LoadLibrary(L"WinAppDll.dll");
+
+typedef int (*math_func)(int, int);
+
+GetProcAddress - hinstLib의 Add, Sub 불러오기
+ex)
+math_func add = (math_func)GetProcAddress(hinstLib, "Add"); 
+math_func sub = (math_func)GetProcAddress(hinstLib, "Sub");
