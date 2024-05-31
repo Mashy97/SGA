@@ -12,6 +12,14 @@ T Add(T a, T b) {
     return c;
 }
 
+다른 변수형태를 사용해야 할 경우
+template <typename T1, typename T2> 등으로 T1, T2 등 여러개를 생성하여 사용이 가능하다.
+ex) 
+template<typename T1, typename T2>
+T1 Check(T1 t1, T2 t2){
+    T1 temp = t1 + t2;
+    return T1;
+}
 template을 사용하여 int, float, double 등을 선언, 정의하지 않아도 원하는 형태로 사용 가능하다
 
 =================================================================
