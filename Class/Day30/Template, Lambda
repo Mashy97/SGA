@@ -1,0 +1,65 @@
+// 24.05.31 Day30
+// SGA C++ unreal class
+// visual studio 2022
+
+
+Template - 데이터 타입에 독립적인 함수를 작성하는 방식 
+함수 호출 시 컴파일러가 타입을 추론하여 인스턴스화
+ex)
+template<typename T>
+T Add(T a, T b) {
+    T c = a + b;
+    return c;
+}
+
+template을 사용하여 int, float, double 등을 선언, 정의하지 않아도 원하는 형태로 사용 가능하다
+
+=================================================================
+
+Lambda - 익명 함수를 생성하고 전달하는데 사용되는 함수형
+간결하게 표현하고	코드를 간소화 하는데 활용
+
+[&], [=] 등 캡쳐 표현식
+즉, 람다 함수에서 외부변수를 변경할 수 있다.
+
+람다 선언, 사용
+1. [&] 외부 변수를 람다함수 내에세 참조하여 캡쳐한다.
+외부 변수 값 변경 가능
+ex)
+ int temp = 5;
+ auto add = [&](int a, int b) -> int {
+     temp++;
+     a += temp;
+     return a + b;
+     };
+ int result = add(10, 20);
+ std::cout << result << std::endl;
+
+2. [=] 외부 변수를 함수내로 가져와 사용하는 것 , 일기 전용
+외부 변수 값 변경 불가능
+ex)
+auto x = 5;
+auto Lambda = [=]() -> int {
+    int y = x * 2;
+    return y;
+    };
+
+int lambda = Lambda();
+
+std::cout << lambda << std::endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
