@@ -1,0 +1,8 @@
+// 24.06.03 Day31
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+Level, 액터 배치
+
+blueprint
+변수, 함수 생성, beginPlay, print string, add, sub, mul, div, append, delay, format text
