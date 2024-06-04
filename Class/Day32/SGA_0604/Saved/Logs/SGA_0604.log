@@ -1,0 +1,1703 @@
+﻿Log file open, 06/04/24 13:38:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: SGA_0604
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.207096
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz, GPU: NVIDIA GeForce GTX 1050 Ti
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/202406/SGA_0604/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.06.04-04.38.48:951][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2024.06.04-04.38.48:951][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/202406/SGA_0604/Saved/Config/Windows/Engine.ini]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/202406/SGA_0604/Saved/Config/Windows/Engine.ini]
+[2024.06.04-04.38.48:952][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/202406/SGA_0604/Saved/Config/Windows/Engine.ini]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/202406/SGA_0604/Saved/Config/Windows/Engine.ini]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.06.04-04.38.48:952][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/202406/SGA_0604/Saved/Config/Windows/Engine.ini]
+[2024.06.04-04.38.48:952][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/202406/SGA_0604/Saved/Config/Windows/Engine.ini]
+[2024.06.04-04.38.48:961][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:961][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.06.04-04.38.48:961][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.06.04-04.38.48:961][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:961][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.06.04-04.38.48:962][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.06.04-04.38.48:963][  0]LogInit: Selected Device Profile: [Windows]
+[2024.06.04-04.38.48:963][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.06.04-04.38.48:963][  0]LogHAL: Display: Platform has ~ 16 GB [17110605824 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.06.04-04.38.48:963][  0]LogInit: Going up to parent DeviceProfile []
+[2024.06.04-04.38.48:963][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2024.06.04-04.38.48:963][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SSGI.Quality:2]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:2]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:64.0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:64.0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@2] File [D:/202406/SGA_0604/Saved/Config/Windows/Scalability.ini]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.06.04-04.38.48:964][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/202406/SGA_0604/Saved/Config/Windows/Engine.ini]
+[2024.06.04-04.38.48:964][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/202406/SGA_0604/Saved/Config/Windows/Editor.ini]
+[2024.06.04-04.38.48:964][  0]LogInit: Computer: DESKTOP-M92ICI7
+[2024.06.04-04.38.48:964][  0]LogInit: User: SGA
+[2024.06.04-04.38.48:964][  0]LogInit: CPU Page size=4096, Cores=6
+[2024.06.04-04.38.48:964][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.06.04-04.38.48:964][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2024.06.04-04.38.48:964][  0]LogMemory: Platform Memory Stats for Windows
+[2024.06.04-04.38.48:964][  0]LogMemory: Process Physical Memory: 143.89 MB used, 143.89 MB peak
+[2024.06.04-04.38.48:964][  0]LogMemory: Process Virtual Memory: 113.86 MB used, 113.86 MB peak
+[2024.06.04-04.38.48:964][  0]LogMemory: Physical Memory: 4986.31 MB used,  11331.63 MB free, 16317.95 MB total
+[2024.06.04-04.38.48:964][  0]LogMemory: Virtual Memory: 134206040.00 MB used,  11684.49 MB free, 134217728.00 MB total
+[2024.06.04-04.38.48:969][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.06.04-04.38.48:987][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2024.06.04-04.38.48:987][  0]LogInit: Using OS detected language (ko-KR).
+[2024.06.04-04.38.48:987][  0]LogInit: Using OS detected locale (ko-KR).
+[2024.06.04-04.38.48:990][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2024.06.04-04.38.49:094][  0]LogInit: Setting process to per monitor DPI aware
+[2024.06.04-04.38.49:116][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.06.04-04.38.49:125][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.06.04-04.38.49:125][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.06.04-04.38.49:232][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2024.06.04-04.38.49:234][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.06.04-04.38.49:234][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.06.04-04.38.49:234][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2024.06.04-04.38.49:234][  0]LogD3D11RHI: D3D11 adapters:
+[2024.06.04-04.38.49:376][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2024.06.04-04.38.49:376][  0]LogD3D11RHI:       4017/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:       0/0/8158 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1050 Ti
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     DeviceId    : 1c82
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     SubSysId    : 8c961462
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     DedicatedVideoMemory : 4212129792 bytes
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     SharedSystemMemory : 8555302912 bytes
+[2024.06.04-04.38.49:383][  0]LogD3D11RHI:     AdapterLuid : 0 44699
+[2024.06.04-04.38.49:391][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.06.04-04.38.49:391][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2024.06.04-04.38.49:391][  0]LogWindows: EnumDisplayDevices:
+[2024.06.04-04.38.49:391][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2024.06.04-04.38.49:392][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2024.06.04-04.38.49:392][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2024.06.04-04.38.49:393][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2024.06.04-04.38.49:393][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.06.04-04.38.49:393][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2024.06.04-04.38.49:393][  0]LogD3D11RHI:   Driver Version: 535.98 (internal:31.0.15.3598, unified:535.98)
+[2024.06.04-04.38.49:393][  0]LogD3D11RHI:      Driver Date: 5-24-2023
+[2024.06.04-04.38.49:393][  0]LogRHI: Texture pool is 2811 MB (70% of 4017 MB)
+[2024.06.04-04.38.49:393][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2024.06.04-04.38.49:393][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1050 Ti
+[2024.06.04-04.38.49:393][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.06.04-04.38.49:393][  0]LogD3D11RHI:     DeviceId    : 1c82
+[2024.06.04-04.38.49:394][  0]LogD3D11RHI:     SubSysId    : 8c961462
+[2024.06.04-04.38.49:394][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.06.04-04.38.49:394][  0]LogD3D11RHI:     DedicatedVideoMemory : 4212129792 bytes
+[2024.06.04-04.38.49:394][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.06.04-04.38.49:394][  0]LogD3D11RHI:     SharedSystemMemory : 8555302912 bytes
+[2024.06.04-04.38.49:394][  0]LogD3D11RHI:     AdapterLuid : 0 44699
+[2024.06.04-04.38.49:492][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.06.04-04.38.49:492][  0]LogD3D11RHI: Async texture creation enabled
+[2024.06.04-04.38.49:492][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.06.04-04.38.49:493][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
+[2024.06.04-04.38.49:509][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.06.04-04.38.49:551][  0]LogRHI: GeForceNow SDK initialized: 1
+[2024.06.04-04.38.49:552][  0]LogWindows: Warning: CreateProc failed: 지정된 파일을 찾을 수 없습니다. (0x00000002)
+[2024.06.04-04.38.49:552][  0]LogWindows: Warning: URL: C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=ValidatePlatforms -allplatforms
+[2024.06.04-04.38.49:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.06.04-04.38.49:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.06.04-04.38.49:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.06.04-04.38.49:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.06.04-04.38.49:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.06.04-04.38.49:606][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2024.06.04-04.38.49:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.06.04-04.38.49:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.06.04-04.38.49:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2024.06.04-04.38.49:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2024.06.04-04.38.49:629][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2024.06.04-04.38.49:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2024.06.04-04.38.49:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2024.06.04-04.38.49:657][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2024.06.04-04.38.49:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2024.06.04-04.38.49:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2024.06.04-04.38.49:668][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2024.06.04-04.38.49:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.06.04-04.38.49:676][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.06.04-04.38.49:684][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2024.06.04-04.38.49:688][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.06.04-04.38.49:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.06.04-04.38.49:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.06.04-04.38.49:696][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.06.04-04.38.49:701][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.06.04-04.38.49:729][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2024.06.04-04.38.49:755][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2024.06.04-04.38.49:756][  0]LogShaderCompilers: Guid format shader working directory is 26 characters bigger than the processId version (D:/202406/SGA_0604/Intermediate/Shaders/WorkingDirectory/3948/).
+[2024.06.04-04.38.49:756][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/SGA/AppData/Local/Temp/UnrealShaderWorkingDir/D87D176C4A996F66BBD5F8B94E70B12F/'.
+[2024.06.04-04.38.49:756][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.06.04-04.38.49:756][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.06.04-04.38.49:756][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.06.04-04.38.50:442][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.06.04-04.38.50:508][  0]LogDerivedDataCache: Loaded boot cache 0.06s 94MB C:/Users/SGA/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2024.06.04-04.38.50:509][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/SGA/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2024.06.04-04.38.50:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/202406/SGA_0604/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.06.04-04.38.50:509][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.06.04-04.38.50:509][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/202406/SGA_0604/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.06.04-04.38.50:509][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.06.04-04.38.50:524][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.06.04-04.38.50:524][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.06.04-04.38.50:524][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2024.06.04-04.38.50:529][  0]LogDerivedDataCache: Speed tests for C:/Users/SGA/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.00 seconds
+[2024.06.04-04.38.50:529][  0]LogDerivedDataCache: Display: Performance to C:/Users/SGA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1462.00MBs, RandomWriteSpeed=232.19MBs. Assigned SpeedClass 'Local'
+[2024.06.04-04.38.50:530][  0]LogDerivedDataCache: Using Local data cache path C:/Users/SGA/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.06.04-04.38.50:530][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.06.04-04.38.50:530][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.06.04-04.38.50:573][  0]LogSlate: Using FreeType 2.10.0
+[2024.06.04-04.38.50:574][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.06.04-04.38.50:597][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2024.06.04-04.38.50:801][  0]LogInit: Selected Device Profile: [Windows]
+[2024.06.04-04.38.50:802][  0]LogInit: Active device profile: [0000018C9F71B600][0000018C9EF0D000 49] Windows
+[2024.06.04-04.38.50:802][  0]LogInit: Profiles: [0000018C9F71B600][0000018C9EF0D000 49] Windows, [0000018C9F6D8E00][0000018C913E7180 49] WindowsNoEditor, [0000018C9F718E00][0000018C913F5300 49] WindowsServer, [0000018C9F6DB400][0000018C913F9480 49] WindowsClient, [0000018C9F71B400][0000018C913FD600 49] IOS, [0000018C9F6D8100][0000018C97049780 49] iPadAir, [0000018C9F718500][0000018C9704D900 49] iPadAir2, [0000018C9F670900][0000018C97055BC0 49] IPadPro, [0000018C9F670A00][0000018C97051C00 49] iPadAir3, [0000018C9F71B000][0000018C97058200 49] iPadAir4, [0000018C9F673700][0000018C9E860380 49] iPadMini2, [0000018C9F719100][0000018C9E864500 49] iPadMini3, [0000018C9F671800][0000018C8E65C640 49] iPadMini4, [0000018C9F71AE00][0000018C9E868780 49] iPadMini5, [0000018C9F6DB000][0000018C9EC789C0 49] iPhone6, [0000018C9F6DAF00][0000018C9EC74A00 49] iPodTouch6, [0000018C9F637F00][0000018C9EA06CC0 49] iPhone7, [0000018C9F637E00][0000018C9E878D00 49] iPodTouch7, [0000018C9F6D8300][0000018C9EA0AE80 49] iPhone5S, [0000018C9F635100][0000018C9EA0F000 49] iPhone6Plus, [0000018C9F6DA500][0000018C9EA13180 49] iPhone6S, [0000018C9F637000][0000018C9EA17300 49] iPhone6SPlus, [0000018C9F6D8600][0000018C9EA25480 49] iPhone7Plus, [0000018C9F635400][0000018C9E891600 49] iPhoneSE, [0000018C9F6DA300][0000018C9E895780 49] iPhone8, [0000018C9F636D00][0000018C9E899900 49] iPhone8Plus, [0000018C9F6D8C00][0000018C9E7BFA80 49] iPhoneX, [0000018C9F635800][0000018C9E7C3C00 49] iPhoneXS, [0000018C9F6D9F00][0000018C9E7C6200 49] iPhoneXSMax, [0000018C9F636900][0000018C9E7CA380 49] iPhoneXR, [0000018C9F6D8D00][0000018C9E7CE500 49] iPhone11, [0000018C9F637C00][0000018C9E7D2680 49] iPhone11Pro, [0000018C9F6DB500][0000018C9E8747C0 49] iPhone11ProMax, [0000018C9F636800][0000018C9E7D6900 49] iPhoneSE2, [0000018C9F6D9200][0000018C9E7DAA40 49] iPhone12Mini, [0000018C9F637500][0000018C9E7DEB80 49] iPhone12, [0000018C9F6DB900][0000018C9E7E6D00 49] iPhone12Pro, [0000018C9F636600][0000018C9E7EAE80 49] iPhone12ProMax, [0000018C9F6D9400][0000018C9700D000 49] iPadPro105, [0000018C9F635F00][0000018C97011180 49] iPadPro129, [0000018C9F6DB300][0000018C97015300 49] iPadPro97, [0000018C9F636300][0000018C97019480 49] iPadPro2_129, [0000018C9F6D9E00][0000018C9701D600 49] iPad5, [0000018C9F636200][0000018C97021780 49] iPad6, [0000018C9F6DA700][0000018C97025900 49] iPad7, [0000018C9F637300][0000018C97029A80 49] iPad8, [0000018C9F6D9900][0000018C9702DC00 49] iPadPro11, [0000018C9F636E00][0000018C97030200 49] iPadPro2_11, [0000018C9F6D8400][0000018C97034380 49] iPadPro3_129, [0000018C9F635000][0000018C97038500 49] iPadPro4_129, [0000018C9F6DA200][0000018C9703C680 49] AppleTV, [0000018C9F637800][0000018C97040800 49] AppleTV4K, [0000018C9F6DBB00][0000018C9E7E2940 49] TVOS, [0000018C9F634300][0000018C97044A80 49] Mac, [0000018C9F6D8F00][0000018C91010BC0 49] MacClient, [0000018C9F635A00][0000018C91014D00 49] MacNoEditor, [0000018C9F6DB800][0000018C9101CE80 49] MacServer, [0000018C9F637D00][0000018C91021000 49] Linux, [0000018C9F6DB600][0000018C91025180 49] LinuxAArch64, [0000018C9F635B00][0000018C91029300 49] LinuxNoEditor, [0000018C9F6D9C00][0000018C9102D480 49] LinuxAArch64NoEditor, [0000018C9F634600][0000018C91031600 49] LinuxClient, [0000018C9F6D9800][0000018C91035780 49] LinuxAArch64Client, [0000018C9F634A00][0000018C91039900 49] LinuxServer, [0000018C9F6D9600][0000018C9103DA80 49] LinuxAArch64Server, [0000018C9F636B00][0000018C91041C00 49] Android, [0000018C9F673100][0000018C91044200 49] Android_Low, [0000018C9DB4C800][0000018C91048380 49] Android_Mid, [0000018C9F672000][0000018C9104C500 49] Android_High, [0000018C9DB4D500][0000018C91050680 49] Android_Default, [0000018C9F671600][0000018C9E900800 49] Android_Adreno4xx, [0000018C9DB4D000][0000018C9E904980 49] Android_Adreno5xx_Low, [0000018C9F670800][0000018C9E908B00 49] Android_Adreno5xx, [0000018C9DB4D200][0000018C91018C40 49] Android_Adreno6xx, [0000018C9F672600][0000018C9E90CD80 49] Android_Adreno6xx_Vulkan, [0000018C9DB4D700][0000018C9E910EC0 49] Android_Mali_T6xx, [0000018C9F673B00][0000018C9E919040 49] Android_Mali_T7xx, [0000018C9DB4C500][0000018C9E91D1C0 49] Android_Mali_T8xx, [0000018C9F670D00][0000018C9E921340 49] Android_Mali_G71, [0000018C9DB4DA00][0000018C9E9254C0 49] Android_Mali_G72, [0000018C9F671D00][0000018C9E929640 49] Android_Mali_G72_Vulkan, [0000018C9DB4CF00][0000018C9E92D7C0 49] Android_Mali_G76, [0000018C9F673F00][0000018C9E931940 49] Android_Mali_G76_Vulkan, [0000018C9DB4CC00][0000018C9E935AC0 49] Android_Mali_G77, [0000018C9F670200][0000018C9E9380C0 49] Android_Mali_G77_Vulkan, [0000018C9DB4D600][0000018C9E870240 49] Android_Mali_G78, [0000018C9F671300][0000018C9E86C3C0 49] Android_Mali_G78_Vulkan, [0000018C9DB4DC00][0000018C9E93C540 49] Android_Mali_G710, [0000018C9F671200][0000018C970646C0 49] Android_Mali_G710_Vulkan, [0000018C9F636700][0000018C90FE8840 49] Android_Vulkan_SM5, [0000018C9F670B00][0000018C90FEC9C0 49] Android_PowerVR_G6xxx, [0000018C9F634100][0000018C90FF0B40 49] Android_PowerVR_GT7xxx, [0000018C9F670400][0000018C90FF4CC0 49] Android_PowerVR_GE8xxx, [0000018C9F635500][0000018C9E914E00 49] Android_PowerVR_GM9xxx, [0000018C9F673000][0000018C90FF8F40 49] Android_PowerVR_GM9xxx_Vulkan, [0000018C9F637400][0000018C90FFD080 49] Android_TegraK1, [0000018C9F672E00][0000018C910011C0 49] Android_Unknown_Vulkan, [0000018C9F636F00][0000018C91009340 49] Lumin, [0000018C9F670F00][0000018C9100D4C0 49] Lumin_Desktop, [0000018C9F635300][0000018C9E941640 49] HoloLens, 
+[2024.06.04-04.38.50:914][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.06.04-04.38.50:914][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2024.06.04-04.38.50:914][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.06.04-04.38.50:914][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2024.06.04-04.38.50:914][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2024.06.04-04.38.50:927][  0]LogNetVersion: SGA_0604 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2498160732)
+[2024.06.04-04.38.51:290][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2024.06.04-04.38.51:355][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2024.06.04-04.38.51:360][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2024.06.04-04.38.51:360][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2024.06.04-04.38.51:360][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.06.04-04.38.51:613][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: AFA421454DD8676DFD8BB7A709643214 | Instance: 67E08CC5437D549CA896439767661CF1 (DESKTOP-M92ICI7-3948).
+[2024.06.04-04.38.51:726][  0]LogPython: Using Python 3.7.7
+[2024.06.04-04.38.52:246][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.06.04-04.38.52:250][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.06.04-04.38.52:383][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.06.04-04.38.52:383][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.06.04-04.38.52:385][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.06.04-04.38.52:388][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.06.04-04.38.52:396][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.06.04-04.38.52:450][  0]LogUProjectInfo: Found projects:
+[2024.06.04-04.38.52:603][  0]LogOpenImageDenoise: OIDN starting up
+[2024.06.04-04.38.52:628][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.06.04-04.38.52:646][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.06.04-04.38.52:646][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.06.04-04.38.52:752][  0]LogCollectionManager: Loaded 0 collections in 0.001675 seconds
+[2024.06.04-04.38.52:772][  0]LogFileCache: Scanning file cache for directory 'D:/202406/SGA_0604/Saved/Collections/' took 0.00s
+[2024.06.04-04.38.52:772][  0]LogFileCache: Scanning file cache for directory 'D:/202406/SGA_0604/Content/Developers/SGA/Collections/' took 0.00s
+[2024.06.04-04.38.52:772][  0]LogFileCache: Scanning file cache for directory 'D:/202406/SGA_0604/Content/Collections/' took 0.00s
+[2024.06.04-04.38.52:772][  0]LogOcInput: OculusInput pre-init called
+[2024.06.04-04.38.53:010][  0]LogEngine: Initializing Engine...
+[2024.06.04-04.38.53:012][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2024.06.04-04.38.53:012][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.06.04-04.38.53:012][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2024.06.04-04.38.53:013][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.06.04-04.38.53:121][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.06.04-04.38.53:129][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.06.04-04.38.53:141][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.06.04-04.38.53:143][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.06.04-04.38.53:144][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.06.04-04.38.53:144][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.06.04-04.38.53:144][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.06.04-04.38.53:144][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-04.38.53:144][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-04.38.53:144][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-04.38.53:144][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-04.38.53:144][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-04.38.53:144][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-04.38.53:144][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-04.38.53:144][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-04.38.53:145][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-04.38.53:145][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-04.38.53:145][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-04.38.53:145][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2024.06.04-04.38.53:154][  0]LogAudioMixer: Display: 0: FrontLeft
+[2024.06.04-04.38.53:154][  0]LogAudioMixer: Display: 1: FrontRight
+[2024.06.04-04.38.53:167][  0]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2024.06.04-04.38.53:169][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-04.38.53:171][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-04.38.53:171][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-04.38.53:172][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.06.04-04.38.53:172][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.06.04-04.38.53:172][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.06.04-04.38.53:173][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.06.04-04.38.53:173][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.06.04-04.38.53:173][  0]LogInit: FAudioDevice initialized.
+[2024.06.04-04.38.53:173][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.06.04-04.38.53:173][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.06.04-04.38.53:398][  0]LogDerivedDataCache: Saved boot cache 0.22s 94MB C:/Users/SGA/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2024.06.04-04.38.53:404][  0]LogInit: Texture streaming: Enabled
+[2024.06.04-04.38.53:427][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2024.06.04-04.38.53:432][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.06.04-04.38.53:432][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2024.06.04-04.38.53:434][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2024.06.04-04.38.53:452][  0]LogInit: Transaction tracking system initialized
+[2024.06.04-04.38.53:470][  0]BlueprintLog: New page: 에디터 로드
+[2024.06.04-04.38.53:519][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2024.06.04-04.38.53:537][  0]TimingProfiler: Initialize
+[2024.06.04-04.38.53:538][  0]TimingProfiler: OnSessionChanged
+[2024.06.04-04.38.53:538][  0]LoadingProfiler: Initialize
+[2024.06.04-04.38.53:538][  0]LoadingProfiler: OnSessionChanged
+[2024.06.04-04.38.53:538][  0]NetworkingProfiler: Initialize
+[2024.06.04-04.38.53:538][  0]NetworkingProfiler: OnSessionChanged
+[2024.06.04-04.38.53:538][  0]MemoryProfiler: Initialize
+[2024.06.04-04.38.53:538][  0]MemoryProfiler: OnSessionChanged
+[2024.06.04-04.38.53:653][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2024.06.04-04.38.53:653][  0]LogCook: Display: Mobile HDR setting 1
+[2024.06.04-04.38.53:805][  0]LogFileCache: Scanning file cache for directory 'D:/202406/SGA_0604/Content/' took 0.00s
+[2024.06.04-04.38.53:994][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.06.04-04.38.53:996][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.06.04-04.38.53:997][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.020
+[2024.06.04-04.38.53:997][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.06.04-04.38.53:997][  0]LightingResults: New page: 라이팅 빌드
+[2024.06.04-04.38.53:998][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.38.53:998][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.38.53:998][  0]MapCheck: New page: 맵 체크
+[2024.06.04-04.38.53:998][  0]LightingResults: New page: 라이팅 빌드
+[2024.06.04-04.38.54:002][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.04-04.38.54:005][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.06.04-04.38.54:050][  0]LogTexture: Display: 텍스처 빌드: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2024.06.04-04.38.54:062][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2024.06.04-04.38.54:063][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2024.06.04-04.38.54:066][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.06.04-04.38.54:072][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.06.04-04.38.54:072][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.06.04-04.38.54:072][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.122ms.
+[2024.06.04-04.38.54:072][  0]LogFileHelpers: Loading map 'Template_Default' took 0.077
+[2024.06.04-04.38.54:074][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.098
+[2024.06.04-04.38.54:213][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.38.54:218][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.38.54:224][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.38.54:229][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.38.54:242][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0086 seconds. Added 3822 classes and 928 folders.
+[2024.06.04-04.38.54:244][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.06.04-04.38.54:245][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.06.04-04.38.54:245][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:245][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.06.04-04.38.54:245][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:245][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2024.06.04-04.38.54:245][  0]LogPakFile: OnPakFileMounted2Time == 0.000053
+[2024.06.04-04.38.54:245][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2024.06.04-04.38.54:245][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:245][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2024.06.04-04.38.54:245][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:245][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2024.06.04-04.38.54:245][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2024.06.04-04.38.54:246][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2024.06.04-04.38.54:246][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:246][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2024.06.04-04.38.54:246][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:246][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2024.06.04-04.38.54:246][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2024.06.04-04.38.54:246][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.06.04-04.38.54:246][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:246][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.06.04-04.38.54:246][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:246][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/StarterContent.upack)
+[2024.06.04-04.38.54:247][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2024.06.04-04.38.54:247][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2024.06.04-04.38.54:247][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:247][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2024.06.04-04.38.54:247][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:247][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2024.06.04-04.38.54:247][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2024.06.04-04.38.54:247][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2024.06.04-04.38.54:247][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:247][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2024.06.04-04.38.54:247][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:247][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2024.06.04-04.38.54:247][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:248][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2024.06.04-04.38.54:248][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:248][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2024.06.04-04.38.54:248][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:248][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2024.06.04-04.38.54:248][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:248][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2024.06.04-04.38.54:248][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:248][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2024.06.04-04.38.54:248][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:248][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2024.06.04-04.38.54:248][  0]LogPakFile: OnPakFileMounted2Time == 0.000037
+[2024.06.04-04.38.54:249][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.06.04-04.38.54:249][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:249][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.06.04-04.38.54:249][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:249][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2024.06.04-04.38.54:249][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:250][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2024.06.04-04.38.54:250][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:250][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2024.06.04-04.38.54:250][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:250][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2024.06.04-04.38.54:250][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:250][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2024.06.04-04.38.54:250][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:250][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2024.06.04-04.38.54:250][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:250][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2024.06.04-04.38.54:250][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:251][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.06.04-04.38.54:251][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:251][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.06.04-04.38.54:251][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:251][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2024.06.04-04.38.54:251][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:251][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.06.04-04.38.54:251][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:251][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.06.04-04.38.54:251][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:251][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2024.06.04-04.38.54:251][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2024.06.04-04.38.54:252][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.06.04-04.38.54:252][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:252][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.06.04-04.38.54:252][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:252][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2024.06.04-04.38.54:252][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2024.06.04-04.38.54:252][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2024.06.04-04.38.54:252][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:252][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2024.06.04-04.38.54:252][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:252][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2024.06.04-04.38.54:252][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:253][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.06.04-04.38.54:253][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:253][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.06.04-04.38.54:253][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:253][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2024.06.04-04.38.54:253][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2024.06.04-04.38.54:253][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2024.06.04-04.38.54:253][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:253][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2024.06.04-04.38.54:253][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:253][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2024.06.04-04.38.54:253][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:254][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.06.04-04.38.54:254][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:254][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.06.04-04.38.54:254][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:254][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2024.06.04-04.38.54:254][  0]LogPakFile: OnPakFileMounted2Time == 0.000039
+[2024.06.04-04.38.54:254][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.06.04-04.38.54:254][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:254][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.06.04-04.38.54:254][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:254][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2024.06.04-04.38.54:254][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:255][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.06.04-04.38.54:255][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:255][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.06.04-04.38.54:255][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:255][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2024.06.04-04.38.54:255][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2024.06.04-04.38.54:255][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.06.04-04.38.54:255][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:255][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.06.04-04.38.54:255][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:255][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2024.06.04-04.38.54:255][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2024.06.04-04.38.54:255][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.06.04-04.38.54:256][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:256][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.06.04-04.38.54:256][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:256][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2024.06.04-04.38.54:256][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:256][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2024.06.04-04.38.54:256][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:256][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2024.06.04-04.38.54:256][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:256][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2024.06.04-04.38.54:256][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2024.06.04-04.38.54:256][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.06.04-04.38.54:257][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:257][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.06.04-04.38.54:257][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:257][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2024.06.04-04.38.54:257][  0]LogPakFile: OnPakFileMounted2Time == 0.000041
+[2024.06.04-04.38.54:257][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.06.04-04.38.54:257][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:257][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.06.04-04.38.54:257][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:257][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2024.06.04-04.38.54:257][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2024.06.04-04.38.54:258][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2024.06.04-04.38.54:258][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.06.04-04.38.54:258][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2024.06.04-04.38.54:258][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.06.04-04.38.54:258][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/Program Files/Epic Games/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2024.06.04-04.38.54:258][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2024.06.04-04.38.54:299][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.06.04-04.38.54:303][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2024.06.04-04.38.54:389][  0]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.06.04-04.38.54:393][  0]LogSlate: Took 0.003026 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2024.06.04-04.38.54:393][  0]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.06.04-04.38.54:397][  0]LogSlate: Took 0.001675 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2024.06.04-04.38.54:397][  0]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.06.04-04.38.54:472][  0]LogRenderer: Reallocating scene render targets to support 1240x556 Format 9 NumSamples 1 (Frame:1).
+[2024.06.04-04.38.54:547][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.06.04-04.38.54:547][  0]LogLoad: (Engine Initialization) Total time: 6.57 seconds
+[2024.06.04-04.38.54:547][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.06.04-04.38.54:588][  0]LogAssetRegistry: Asset discovery search completed in 3.9925 seconds
+[2024.06.04-04.38.54:593][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2024.06.04-04.38.54:595][  0]LogContentStreaming: Texture pool size now 800 MB
+[2024.06.04-04.38.54:667][  6]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.04-04.38.55:562][114]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.04-04.39.13:952][193]LogAssetTools: Warning: 'D:\202406\SGA_0604\Content\0604.umap' 임포트에 실패했습니다. 알려지지 않은 'umap' 확장자입니다.
+[2024.06.04-04.39.21:798][227]LogAssetTools: Warning: 'D:\202406\SGA_0604\Content\0604.umap' 임포트에 실패했습니다. 알려지지 않은 'umap' 확장자입니다.
+[2024.06.04-04.39.21:800][227]LogAssetTools: Warning: 'D:\202406\SGA_0604\Content\0604_BuiltData.uasset' 임포트에 실패했습니다. 알려지지 않은 'uasset' 확장자입니다.
+[2024.06.04-04.39.21:802][227]LogAssetTools: Warning: 'D:\202406\SGA_0604\Content\BP_Base.uasset' 임포트에 실패했습니다. 알려지지 않은 'uasset' 확장자입니다.
+[2024.06.04-04.39.21:803][227]LogAssetTools: Warning: 'D:\202406\SGA_0604\Content\Untitled.umap' 임포트에 실패했습니다. 알려지지 않은 'umap' 확장자입니다.
+[2024.06.04-04.39.36:006][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.06.04-04.39.36:006][309]Cmd: MAP LOAD FILE="D:/202406/SGA_0604/Content/0604.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.06.04-04.39.36:032][309]LightingResults: New page: 라이팅 빌드
+[2024.06.04-04.39.36:032][309]LoadErrors: New page: 맵 로드 중: 0604.umap
+[2024.06.04-04.39.36:073][309]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.39.36:073][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.39.36:073][309]MapCheck: New page: 맵 체크
+[2024.06.04-04.39.36:073][309]LightingResults: New page: 라이팅 빌드
+[2024.06.04-04.39.36:078][309]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.04-04.39.36:079][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.06.04-04.39.36:107][309]LogAudio: Display: Audio Device (ID: 1) registered with world '0604'.
+[2024.06.04-04.39.36:108][309]LogAIModule: Creating AISystem for world 0604
+[2024.06.04-04.39.36:163][309]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.06.04-04.39.36:169][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.06.04-04.39.36:183][309]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.06.04-04.39.36:184][309]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.079ms.
+[2024.06.04-04.39.36:184][309]LogFileHelpers: Loading map '0604' took 0.177
+[2024.06.04-04.39.36:184][309]LogSlate: Window '레벨 열기' being destroyed
+[2024.06.04-04.39.41:373][917]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/0604.0604:PersistentLevel.0604
+[2024.06.04-04.39.41:557][917]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2024.06.04-04.39.42:283][917]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.06.04-04.39.47:039][472]LogSlate: Window '0604' being destroyed
+[2024.06.04-04.39.47:043][472]LogSlate: Window '0604' being destroyed
+[2024.06.04-04.39.47:045][472]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.39.47:045][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.39.49:112][670]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2024.06.04-04.40.11:923][279]LogSlate: Window '프로젝트 세팅' being destroyed
+[2024.06.04-04.40.11:927][279]LogSlate: Window '프로젝트 세팅' being destroyed
+[2024.06.04-04.40.12:547][351]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2024.06.04-04.40.13:185][423]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.06.04-04.40.13:189][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-04.40.13:189][423]PIE: New page: PIE 세션: 0604 (2024. 6. 4. 오후 10:40:13)
+[2024.06.04-04.40.13:191][423]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2024.06.04-04.40.13:192][423]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.06.04-04.40.13:192][423]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_0604
+[2024.06.04-04.40.13:195][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003283s)
+[2024.06.04-04.40.13:196][423]LogAIModule: Creating AISystem for world 0604
+[2024.06.04-04.40.13:197][423]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2024.06.04-04.40.13:197][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/0604.0604 to /Game/UEDPIE_0_0604.0604 (0.004587s)
+[2024.06.04-04.40.13:257][423]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2024.06.04-04.40.13:258][423]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.06.04-04.40.13:258][423]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-04.40.13:258][423]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-04.40.13:258][423]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-04.40.13:258][423]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-04.40.13:259][423]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-04.40.13:259][423]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-04.40.13:259][423]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-04.40.13:259][423]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-04.40.13:259][423]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-04.40.13:259][423]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-04.40.13:259][423]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-04.40.13:259][423]LogAudioMixer: Display: Initializing audio mixer.
+[2024.06.04-04.40.13:261][423]LogAudioMixer: Display: 0: FrontLeft
+[2024.06.04-04.40.13:261][423]LogAudioMixer: Display: 1: FrontRight
+[2024.06.04-04.40.13:268][423]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2024.06.04-04.40.13:268][423]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-04.40.13:268][423]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-04.40.13:268][423]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-04.40.13:269][423]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.06.04-04.40.13:269][423]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.06.04-04.40.13:269][423]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.06.04-04.40.13:270][423]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.06.04-04.40.13:270][423]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.06.04-04.40.13:270][423]LogInit: FAudioDevice initialized.
+[2024.06.04-04.40.13:270][423]LogAudio: Display: Audio Device (ID: 2) registered with world '0604'.
+[2024.06.04-04.40.13:278][423]LogLoad: Game class is 'GameModeBase'
+[2024.06.04-04.40.13:279][423]LogWorld: Bringing World /Game/UEDPIE_0_0604.0604 up for play (max tick rate 0) at 2024.06.04-13.40.13
+[2024.06.04-04.40.13:279][423]LogWorld: Bringing up level for play took: 0.000460
+[2024.06.04-04.40.13:279][423]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2024.06.04-04.40.13:283][423]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2024.06.04-04.40.13:283][423]PIE: 서버가 로그인했습니다.
+[2024.06.04-04.40.13:285][423]PIE: 에디터에서 플레이 총 시작 시간 0.096초입니다.
+[2024.06.04-04.40.16:347][760]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.16:772][811]LogBlueprintUserMessages: [0604_C_5] 8
+[2024.06.04-04.40.17:630][914]LogBlueprintUserMessages: [0604_C_5] 9
+[2024.06.04-04.40.18:814][ 56]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.18:815][ 56]LogBlueprintUserMessages: [0604_C_5] for each 완료
+[2024.06.04-04.40.19:064][ 86]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.19:064][ 86]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.19:064][ 86]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.19:064][ 86]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.19:064][ 86]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.19:064][ 86]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.19:065][ 86]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.19:065][ 86]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.19:065][ 86]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.19:065][ 86]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.19:065][ 86]LogBlueprintUserMessages: [0604_C_5] 완료
+[2024.06.04-04.40.21:381][364]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.21:381][364]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.21:381][364]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.21:382][364]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.21:382][364]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.21:382][364]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.21:382][364]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.21:382][364]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.21:382][364]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.21:382][364]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.21:382][364]LogBlueprintUserMessages: [0604_C_5] 완료
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.21:783][412]LogBlueprintUserMessages: [0604_C_5] for each 완료
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.24:065][686]LogBlueprintUserMessages: [0604_C_5] for each 완료
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.24:232][706]LogBlueprintUserMessages: [0604_C_5] 완료
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.25:489][857]LogBlueprintUserMessages: [0604_C_5] for each 완료
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.25:606][871]LogBlueprintUserMessages: [0604_C_5] 완료
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.26:464][974]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.26:465][974]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.26:465][974]LogBlueprintUserMessages: [0604_C_5] for each 완료
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 1
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 2
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 3
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 4
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 5
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 6
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 7
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 40
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 16
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 50
+[2024.06.04-04.40.26:623][993]LogBlueprintUserMessages: [0604_C_5] 완료
+[2024.06.04-04.40.31:683][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.40.31:683][596]LogWorld: BeginTearingDown for /Game/UEDPIE_0_0604
+[2024.06.04-04.40.31:683][596]LogWorld: UWorld::CleanupWorld for 0604, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.40.31:683][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.40.31:693][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-04.40.31:702][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.40.31:717][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.40.31:726][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.04-04.40.31:727][596]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.04-04.40.31:783][596]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2024.06.04-04.40.31:809][597]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.06.04-04.40.34:275][867]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/0604.0604:PersistentLevel.0604
+[2024.06.04-04.40.56:676][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0604" FILE="D:/202406/SGA_0604/Content/0604.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-04.40.56:717][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.06.04-04.40.56:734][358]LogSavePackage: Moving 'D:/202406/SGA_0604/Saved/06043EAC674F41CCA89E38482D8C85B6B422.tmp' to 'D:/202406/SGA_0604/Content/0604.umap'
+[2024.06.04-04.40.56:743][358]LogFileHelpers: Saving map '0604' took 0.068
+[2024.06.04-04.40.56:755][358]AssetCheck: New page: 에셋 저장:  0604
+[2024.06.04-04.40.56:755][358]LogContentValidation: Display: World /Game/0604.0604 유효성 검사 중
+[2024.06.04-04.40.57:843][475]BlueprintLog: New page: 0604 컴파일
+[2024.06.04-04.40.57:878][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.06.04-04.40.57:962][475]LogSlate: Took 0.000084 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.06.04-04.40.57:964][475]LogSlate: Took 0.001432 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2024.06.04-04.40.58:509][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0604" FILE="D:/202406/SGA_0604/Content/0604.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-04.40.58:526][536]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.06.04-04.40.58:542][536]LogSavePackage: Moving 'D:/202406/SGA_0604/Saved/0604DD0277B3492C6CF2C173BEA53335CECD.tmp' to 'D:/202406/SGA_0604/Content/0604.umap'
+[2024.06.04-04.40.58:550][536]LogFileHelpers: Saving map '0604' took 0.043
+[2024.06.04-04.40.58:561][536]AssetCheck: New page: 에셋 저장:  0604
+[2024.06.04-04.40.58:561][536]LogContentValidation: Display: World /Game/0604.0604 유효성 검사 중
+[2024.06.04-04.40.59:081][585]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.06.04-04.40.59:085][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-04.40.59:085][585]PIE: New page: PIE 세션: 0604 (2024. 6. 4. 오후 10:40:59)
+[2024.06.04-04.40.59:121][585]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_0604
+[2024.06.04-04.40.59:124][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002878s)
+[2024.06.04-04.40.59:125][585]LogAIModule: Creating AISystem for world 0604
+[2024.06.04-04.40.59:125][585]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2024.06.04-04.40.59:125][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/0604.0604 to /Game/UEDPIE_0_0604.0604 (0.003967s)
+[2024.06.04-04.40.59:142][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.06.04-04.40.59:143][585]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.06.04-04.40.59:143][585]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-04.40.59:143][585]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-04.40.59:143][585]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-04.40.59:143][585]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-04.40.59:143][585]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-04.40.59:143][585]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-04.40.59:143][585]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-04.40.59:143][585]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-04.40.59:144][585]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-04.40.59:144][585]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-04.40.59:144][585]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-04.40.59:144][585]LogAudioMixer: Display: Initializing audio mixer.
+[2024.06.04-04.40.59:145][585]LogAudioMixer: Display: 0: FrontLeft
+[2024.06.04-04.40.59:145][585]LogAudioMixer: Display: 1: FrontRight
+[2024.06.04-04.40.59:153][585]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2024.06.04-04.40.59:153][585]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-04.40.59:153][585]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-04.40.59:153][585]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-04.40.59:153][585]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.06.04-04.40.59:153][585]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.06.04-04.40.59:153][585]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.06.04-04.40.59:154][585]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.06.04-04.40.59:154][585]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.06.04-04.40.59:154][585]LogInit: FAudioDevice initialized.
+[2024.06.04-04.40.59:154][585]LogAudio: Display: Audio Device (ID: 3) registered with world '0604'.
+[2024.06.04-04.40.59:168][585]LogLoad: Game class is 'GameModeBase'
+[2024.06.04-04.40.59:169][585]LogWorld: Bringing World /Game/UEDPIE_0_0604.0604 up for play (max tick rate 0) at 2024.06.04-13.40.59
+[2024.06.04-04.40.59:169][585]LogWorld: Bringing up level for play took: 0.000892
+[2024.06.04-04.40.59:170][585]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2024.06.04-04.40.59:172][585]PIE: 서버가 로그인했습니다.
+[2024.06.04-04.40.59:172][585]PIE: 에디터에서 플레이 총 시작 시간 0.088초입니다.
+[2024.06.04-04.41.05:836][326]LogBlueprintUserMessages: [0604_C_0] 3
+[2024.06.04-04.41.06:810][443]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.06:810][443]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.06:810][443]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.06:810][443]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.06:810][443]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.08:527][649]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.08:527][649]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.08:527][649]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.08:527][649]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.08:527][649]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.09:360][749]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.09:360][749]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.09:360][749]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.09:360][749]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.09:360][749]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.09:902][814]LogBlueprintUserMessages: [0604_C_0] 4
+[2024.06.04-04.41.10:452][880]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.10:452][880]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.10:452][880]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.10:452][880]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.10:452][880]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.10:452][880]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.11:577][ 15]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.11:577][ 15]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.11:577][ 15]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.11:577][ 15]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.11:577][ 15]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.11:577][ 15]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.12:960][181]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.12:961][181]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.12:961][181]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.12:961][181]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.12:961][181]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.12:961][181]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.14:336][346]LogBlueprintUserMessages: [0604_C_0] 5
+[2024.06.04-04.41.15:369][470]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.15:369][470]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.15:369][470]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.15:369][470]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.15:369][470]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.15:369][470]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.15:369][470]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.16:144][563]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.16:144][563]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.16:144][563]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.16:144][563]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.16:144][563]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.16:144][563]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.16:144][563]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.17:277][699]LogBlueprintUserMessages: [0604_C_0] 6
+[2024.06.04-04.41.17:777][759]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.17:777][759]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.17:778][759]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.17:778][759]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.17:778][759]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.17:778][759]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.17:778][759]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.17:778][759]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.19:210][931]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.19:210][931]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.19:210][931]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.19:210][931]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.19:211][931]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.19:211][931]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.19:211][931]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.19:211][931]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.20:170][ 46]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:170][ 46]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:170][ 46]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:170][ 46]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:170][ 46]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:170][ 46]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:170][ 46]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:170][ 46]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.20:253][ 56]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:253][ 56]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:253][ 56]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:253][ 56]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:253][ 56]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:253][ 56]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:253][ 56]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:253][ 56]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.20:411][ 75]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:411][ 75]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:411][ 75]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:411][ 75]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:411][ 75]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:411][ 75]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:411][ 75]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:411][ 75]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.20:478][ 83]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:478][ 83]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:478][ 83]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:478][ 83]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:478][ 83]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:478][ 83]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:478][ 83]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:478][ 83]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.20:594][ 97]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:594][ 97]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:594][ 97]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:594][ 97]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:594][ 97]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:594][ 97]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:594][ 97]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:594][ 97]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.20:669][106]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:669][106]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:669][106]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:669][106]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:669][106]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:669][106]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:669][106]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:669][106]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.20:778][119]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:778][119]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:778][119]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:778][119]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:778][119]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:778][119]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:778][119]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:778][119]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.20:902][134]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:902][134]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:902][134]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:902][134]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:902][134]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:902][134]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:902][134]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:903][134]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.20:994][145]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.20:994][145]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.20:994][145]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.20:994][145]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.20:994][145]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.20:994][145]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.20:994][145]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.20:994][145]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.21:103][158]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.21:103][158]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.21:103][158]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.21:103][158]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.21:103][158]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.21:103][158]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.21:103][158]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.21:103][158]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.21:186][168]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.21:186][168]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.21:186][168]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.21:186][168]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.21:186][168]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.21:186][168]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.21:186][168]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.21:186][168]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.41.21:302][182]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.41.21:302][182]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.41.21:302][182]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.41.21:302][182]LogBlueprintUserMessages: [0604_C_0] 52
+[2024.06.04-04.41.21:302][182]LogBlueprintUserMessages: [0604_C_0] 23
+[2024.06.04-04.41.21:302][182]LogBlueprintUserMessages: [0604_C_0] 92
+[2024.06.04-04.41.21:302][182]LogBlueprintUserMessages: [0604_C_0] 2
+[2024.06.04-04.41.21:302][182]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.41.55:654][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.41.55:655][ 71]LogWorld: BeginTearingDown for /Game/UEDPIE_0_0604
+[2024.06.04-04.41.55:655][ 71]LogWorld: UWorld::CleanupWorld for 0604, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.41.55:655][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.41.55:670][ 71]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-04.41.55:678][ 71]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.41.55:694][ 71]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.41.55:694][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.04-04.41.55:695][ 71]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.04-04.41.55:700][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.06.04-04.41.55:725][ 72]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.06.04-04.42.13:346][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.06.04-04.42.13:348][124]Cmd: MAP LOAD FILE="D:/202406/SGA_0604/Content/0604.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.06.04-04.42.13:357][124]LightingResults: New page: 라이팅 빌드
+[2024.06.04-04.42.13:357][124]LoadErrors: New page: 맵 로드 중: 0604.umap
+[2024.06.04-04.42.13:358][124]LogSlate: Window '0604' being destroyed
+[2024.06.04-04.42.13:401][124]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.42.13:401][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.42.13:448][124]LogWorld: UWorld::CleanupWorld for 0604, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.42.13:448][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.42.13:448][124]MapCheck: New page: 맵 체크
+[2024.06.04-04.42.13:448][124]LightingResults: New page: 라이팅 빌드
+[2024.06.04-04.42.13:462][124]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.04-04.42.13:467][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.06.04-04.42.13:483][124]LogAudio: Display: Audio Device (ID: 1) registered with world '0604'.
+[2024.06.04-04.42.13:484][124]LogAIModule: Creating AISystem for world 0604
+[2024.06.04-04.42.13:550][124]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.06.04-04.42.13:567][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.06.04-04.42.13:581][124]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.06.04-04.42.13:581][124]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.077ms.
+[2024.06.04-04.42.13:581][124]LogFileHelpers: Loading map '0604' took 0.234
+[2024.06.04-04.42.13:582][124]LogSlate: Window '레벨 열기' being destroyed
+[2024.06.04-04.42.37:251][638]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2024.06.04-04.42.44:647][499]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.06.04-04.42.50:115][151]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.06.04-04.42.59:220][210]LogTemp: Repeating last play command: 선택된 뷰포트
+[2024.06.04-04.42.59:224][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-04.42.59:224][210]PIE: New page: PIE 세션: 0604 (2024. 6. 4. 오후 10:42:59)
+[2024.06.04-04.42.59:269][210]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_0604
+[2024.06.04-04.42.59:275][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005231s)
+[2024.06.04-04.42.59:276][210]LogAIModule: Creating AISystem for world 0604
+[2024.06.04-04.42.59:276][210]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2024.06.04-04.42.59:276][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/0604.0604 to /Game/UEDPIE_0_0604.0604 (0.006913s)
+[2024.06.04-04.42.59:292][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.06.04-04.42.59:296][210]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.06.04-04.42.59:296][210]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-04.42.59:296][210]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-04.42.59:296][210]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-04.42.59:296][210]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-04.42.59:296][210]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-04.42.59:296][210]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.04-04.42.59:296][210]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-04.42.59:296][210]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-04.42.59:297][210]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-04.42.59:297][210]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-04.42.59:297][210]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-04.42.59:297][210]LogAudioMixer: Display: Initializing audio mixer.
+[2024.06.04-04.42.59:298][210]LogAudioMixer: Display: 0: FrontLeft
+[2024.06.04-04.42.59:298][210]LogAudioMixer: Display: 1: FrontRight
+[2024.06.04-04.42.59:306][210]LogAudioMixer: Display: Using Audio Device LED MONITOR(NVIDIA High Definition Audio)
+[2024.06.04-04.42.59:306][210]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-04.42.59:306][210]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-04.42.59:307][210]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-04.42.59:307][210]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.06.04-04.42.59:307][210]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.06.04-04.42.59:307][210]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.06.04-04.42.59:308][210]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.06.04-04.42.59:308][210]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.06.04-04.42.59:308][210]LogInit: FAudioDevice initialized.
+[2024.06.04-04.42.59:308][210]LogAudio: Display: Audio Device (ID: 4) registered with world '0604'.
+[2024.06.04-04.42.59:314][210]LogLoad: Game class is 'GameModeBase'
+[2024.06.04-04.42.59:315][210]LogWorld: Bringing World /Game/UEDPIE_0_0604.0604 up for play (max tick rate 0) at 2024.06.04-13.42.59
+[2024.06.04-04.42.59:315][210]LogWorld: Bringing up level for play took: 0.000394
+[2024.06.04-04.42.59:315][210]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2024.06.04-04.42.59:317][210]PIE: 서버가 로그인했습니다.
+[2024.06.04-04.42.59:318][210]PIE: 에디터에서 플레이 총 시작 시간 0.095초입니다.
+[2024.06.04-04.43.07:979][248]LogBlueprintUserMessages: [0604_C_0] 3
+[2024.06.04-04.43.08:445][304]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.08:445][304]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.08:445][304]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.08:445][304]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.08:445][304]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.10:896][598]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.10:896][598]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.10:896][598]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.10:896][598]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.10:896][598]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.11:545][676]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.11:545][676]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.11:545][676]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.11:545][676]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.11:545][676]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.12:129][746]LogBlueprintUserMessages: [0604_C_0] 4
+[2024.06.04-04.43.12:988][849]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.12:988][849]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.12:988][849]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.12:988][849]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.12:988][849]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.12:988][849]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.13:121][865]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.13:121][865]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.13:121][865]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.13:121][865]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.13:121][865]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.13:121][865]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.13:220][877]LogBlueprintUserMessages: [0604_C_0] 5
+[2024.06.04-04.43.14:204][995]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.14:204][995]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.14:204][995]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.14:204][995]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.14:204][995]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.14:204][995]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.14:204][995]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.14:287][  5]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.14:287][  5]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.14:287][  5]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.14:287][  5]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.14:287][  5]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.14:287][  5]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.14:287][  5]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.15:596][162]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.15:596][162]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.15:596][162]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.15:596][162]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.15:596][162]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.15:596][162]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.15:596][162]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.15:821][189]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.15:821][189]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.15:821][189]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.15:821][189]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.15:821][189]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.15:821][189]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.15:821][189]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.15:929][202]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.15:929][202]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.15:929][202]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.15:929][202]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.15:929][202]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.15:929][202]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.15:929][202]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.16:120][225]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.16:122][225]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.16:122][225]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.16:122][225]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.16:122][225]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.16:122][225]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.16:122][225]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.16:187][233]LogBlueprintUserMessages: [0604_C_0] 6
+[2024.06.04-04.43.16:354][253]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.16:354][253]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.16:354][253]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.16:354][253]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.16:354][253]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.16:354][253]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.16:354][253]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.16:354][253]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.16:529][274]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.16:529][274]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.16:529][274]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.16:529][274]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.16:529][274]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.16:529][274]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.16:529][274]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.16:529][274]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.16:629][286]LogBlueprintUserMessages: [0604_C_0] 7
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.16:712][296]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.16:937][323]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.16:937][323]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.16:937][323]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.16:938][323]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.16:938][323]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.16:938][323]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.16:938][323]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.16:938][323]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.16:938][323]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.17:013][332]LogBlueprintUserMessages: [0604_C_0] 8
+[2024.06.04-04.43.17:170][351]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.17:170][351]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.17:170][351]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.17:170][351]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.17:170][351]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.17:171][351]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.17:171][351]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.17:171][351]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.17:171][351]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.17:171][351]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.17:321][369]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.17:413][380]LogBlueprintUserMessages: [0604_C_0] 9
+[2024.06.04-04.43.17:520][393]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.17:520][393]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.17:520][393]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.17:520][393]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.17:520][393]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.17:521][393]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.17:521][393]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.17:521][393]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.17:521][393]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.17:521][393]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.17:521][393]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.17:721][417]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.17:796][426]LogBlueprintUserMessages: [0604_C_0] 10
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.17:921][441]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.18:087][461]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.18:179][472]LogBlueprintUserMessages: [0604_C_0] 11
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 50
+[2024.06.04-04.43.18:254][481]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] 50
+[2024.06.04-04.43.18:505][511]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.18:562][518]LogBlueprintUserMessages: [0604_C_0] 12
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 50
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 29
+[2024.06.04-04.43.18:679][532]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 50
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] 29
+[2024.06.04-04.43.18:913][560]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.18:995][570]LogBlueprintUserMessages: [0604_C_0] 13
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 50
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 29
+[2024.06.04-04.43.19:062][578]LogBlueprintUserMessages: [0604_C_0] 7
+[2024.06.04-04.43.19:063][578]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.19:346][612]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.19:347][612]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.19:347][612]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.19:347][612]LogBlueprintUserMessages: [0604_C_0] 50
+[2024.06.04-04.43.19:347][612]LogBlueprintUserMessages: [0604_C_0] 29
+[2024.06.04-04.43.19:347][612]LogBlueprintUserMessages: [0604_C_0] 7
+[2024.06.04-04.43.19:347][612]LogBlueprintUserMessages: [0604_C_0] for each 완료
+[2024.06.04-04.43.19:387][617]LogBlueprintUserMessages: [0604_C_0] 14
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] *
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] **
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] ***
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 93
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 22
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 64
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 33
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 26
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 25
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 18
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 60
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 50
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 29
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 7
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 6
+[2024.06.04-04.43.19:513][632]LogBlueprintUserMessages: [0604_C_0] 완료
+[2024.06.04-04.45.26:739][739]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/0604.0604:PersistentLevel.0604
+[2024.06.04-04.46.15:058][813]Cmd: SELECT NONE
+[2024.06.04-04.46.16:132][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.46.16:132][935]LogWorld: BeginTearingDown for /Game/UEDPIE_0_0604
+[2024.06.04-04.46.16:133][935]LogWorld: UWorld::CleanupWorld for 0604, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.46.16:133][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.46.16:158][935]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-04.46.16:171][935]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.46.16:187][935]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.04-04.46.16:187][935]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.04-04.46.16:188][935]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.06.04-04.46.16:191][935]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-04.46.16:193][935]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.06.04-04.46.16:215][936]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.06.04-04.46.18:870][240]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.06.04-04.46.18:870][240]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_Base.BP_Base
+[2024.06.04-04.47.34:046][286]LogSlate: Window 'BP_Base' being destroyed
+[2024.06.04-04.47.34:051][286]LogSlate: Window 'BP_Base' being destroyed
+[2024.06.04-04.47.34:077][286]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.47.34:077][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.47.34:130][286]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-04.47.34:130][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-04.47.35:788][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.06.04-04.47.35:803][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/0604" FILE="D:/202406/SGA_0604/Content/0604.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-04.47.35:819][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.06.04-04.47.35:835][473]LogSavePackage: Moving 'D:/202406/SGA_0604/Saved/0604F10BC8CC4B12EB1A2BA97CBD9DE537B6.tmp' to 'D:/202406/SGA_0604/Content/0604.umap'
+[2024.06.04-04.47.35:844][473]LogFileHelpers: Saving map '0604' took 0.041
+[2024.06.04-04.47.35:857][473]AssetCheck: New page: 에셋 저장:  0604
+[2024.06.04-04.47.35:857][473]LogContentValidation: Display: World /Game/0604.0604 유효성 검사 중
