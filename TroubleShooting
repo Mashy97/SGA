@@ -1,0 +1,19 @@
+Troubleshooting
+교육, 개발 도중 발생한 문제점, 해결 방법 작성
+/* TroubleShooting 양식
+1. 문제 내용
+2. 문제 발생 일자, 문제 해결 일자
+3. 문제 예상 해결 방법
+4. 문제 해결 방법
+5. 결과
+*/
+
+// 
+trouble1
+1) 블루 프린트 - 키입력 
+레벨 블루프린트에서는 키 입력 부분이 정상 작동하지만 Actor 블루프린트에서는 키 입력 부분이 정상적으로 작동하지 않는 현상 발생
+2) 문제 발생 일자 : 2024.06.04 // 문제 해결 일자 : 2024.06.05
+3) 레벨 부분에서 설정한 키 입력 부분이 Actor에 전달되지 못하여 발생하는 문제로 예상됨
+4)    a) Actor - Detail 입력 부분의 Auto receive input - Disable을 player 부분으로 수정 // player0, player1 ...
+      b) Actor 블루 프린트 화면에서 Get Player Controller을 생성하여 player 입력
+5) Actor에서 키 입력을 하였을 때 정상적으로 작동하는 것을 확인
