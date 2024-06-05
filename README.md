@@ -1,7 +1,6 @@
 # SGA
 
 - SGA C++ unreal Class
-- 
 1. C++ 기초 [ ]
 
 2. Unreal Engine 기초  [ ]
