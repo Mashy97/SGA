@@ -1,0 +1,13 @@
+// 24.06.05 Day33
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+BluePrint
+for : 단일 변수 사용 가능
+for-each : 배열(array) 변수 사용 가능
+
+Array, Map, Set, Vector, Struct
+Map - Key, Find
+
+// 과제 
+Set 값 출력하기
