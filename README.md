@@ -7,6 +7,6 @@
   4. 3D 게임 개발
 
 # 현재 작업중인 코드 및 트러블 슈팅   
-- TroubleShooting
-  1. 블루프린트 Actor 키 입력 [x]
+1. TroubleShooting
+  - 블루프린트 Actor 키 입력 [ ]
 
