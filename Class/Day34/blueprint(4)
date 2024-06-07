@@ -1,0 +1,21 @@
+// 24.06.07 Day34
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+Make Literal 변수 - 원하는 위치에 변수 생성 가능
+
+Vector 
+Mul, Div, Dis, Icl, Vector 내적, Vector 외적
+
+
+// Actor 이동 시키기
+-- 원하는 방향은 Actor을 원하는 Vector 위치에 이동시키는 것
+
+AddWorldOffset
+이동할 Actor와 이동할 위치를 Vector 만큼 이동시킨다.
+ex) Vector V1(x, y, z) 값이 ( 0, 1, 5 ) 라면 
+현재 Actor의 위치에서 V1 만큼 이동한다
+
+하지만 원하는 기능은 Actor가 V1으로 이동하는 것
+-- 결과적으로 Actor을 V1 으로 spawn 시키는 방법을 찾는다.
+
