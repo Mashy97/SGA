@@ -17,3 +17,6 @@ T1.
 4)    a) Actor - Detail 입력 부분의 Auto receive input - Disable을 player 부분으로 수정 // player0, player1 ...
       b) Actor 블루 프린트 화면에서 Get Player Controller을 생성하여 player 입력
 5) Actor에서 키 입력을 하였을 때 정상적으로 작동하는 것을 확인
+
+//
+T2.
