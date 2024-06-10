@@ -11,13 +11,10 @@
   - 블루프린트 Actor 키 입력 - 2024.06.05 완료
 
 # 명령어
-- 궁금하거나 알아낸 명령어 입력
+- 새로운 명령어
   1. Contaion          // 2024.06.10
-  -- 특정한 문자열을 포함하고 있는지에 대한 여부를 반환한다.
-  3. SetActorLocation  // 2024.06.10
-  --  Actor의 위치를 Vector로 변경한다.
-  4. AddWorldOffset    // 2024.06.07
-  --  Actor의 위치를 Vector 만큼 이동시킨다.
+  2. SetActorLocation  // 2024.06.10
+  3. AddWorldOffset    // 2024.06.07
   
 
  
