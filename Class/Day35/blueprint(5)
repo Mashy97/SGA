@@ -1,0 +1,23 @@
+// 24.06.10 Day35
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+ -- CSV 파일 데이터 가져오기
+
+콘텐츠 브라우저에서 추가/ 임포트를 클릭한 후 기타의 데이터 테이블 선택
+행 구조 선택에서 이전에 생성한 구조체 선택 ex) MusicInfo
+데이터 테이블의 이름을 입력 후 데이터 테이블 더블 클릭하여 테이블 오픈
+리임포트 버튼을 클릭하여 CSV 선택
+
+
+===== SetActorLocation =====
+Actor의 위치를 Vector로 변경한다.
+ex) 현재 Actor의 Vector 좌표 : Vector V1 { X = 10.0, Y = 0.0 , Z = 10.0 }
+     위치를 변경 Vector 좌표 : Vector V2 { X = 5.0, Y = 5.0 , Z = 5.0 }
+    SetActorLocation을 사용 시 Actor의 좌표는 V2가 된다. ( Actor의 좌표 V1 =  { X = 5.0, Y = 5.0 , Z = 5.0 }이 된다. )  
+    
+===== Contain =====
+특정한 문자열을 포함하고 있는지에 대한 여부를 반환
+String과 String 비교 후 Bool( true, false ) 값 반환
+ex) String str1 = "STRING", String str2 = "N" => Contain( str1, str2 ) = true
+    String str1 = "STRING", String str2 = "B" => Contain( str1, str2 ) = false
