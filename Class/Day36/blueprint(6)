@@ -1,0 +1,31 @@
+// 24.06.11 Day36
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+
+UI - User Interface
+플레이어 또는 사용자가 확인가능한 화면
+
+Image, Button, Background 등 원하는 기능을 생성 및 출력이 가능하다.
+앵커 - Canvas Panel의 기준으로 위치, 크기를 설정이 가능하다
+
+
+===== Remove All Widgets =====
+모든 위젯을 제거한다.
+
+===== Remove From Parent =====
+현재 위젯을 제거한다.
+
+===== Create Widgets =====
+UI를 선택하여 위젯을 생성한다.
+ex) Create Widgets ( WBP_LOBBY ) 
+
+===== Add to Viewport =====
+선택한 위젯을 화면에 표현
+ex) Add to Viewport ( WBP_LOBBY )
+
+// Add to Viewport를 이용하여 원하는 화면을 출력, 전환이 가능하다.
+ex) Remove All Widgets ==> Create Widgets ( WBP_START ) ==> Add to Viewport ( WBP_START )
+    1. 현재 출력된 모든 위젯을 제거 한다.
+    2. WBP_START UI를 참고하여 위젯을 생성한 후
+    3. Viewport를 WBP_START로 옮겨 UI 전환이 가능하다
