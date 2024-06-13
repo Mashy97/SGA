@@ -1,0 +1,10 @@
+// 24.06.13 Day38
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+
+UI - User Interface
+ZOrder - UI 우선순위 설정
+ZOrder의 수치가 높을수록 우선순위( 화면 제일 위에 출력 )가 높다.
+ex) image_A, image_B가 있을 경우 image_A ( ZOrder = 0 ), image_B ( ZOrder = 1 ) 이라면
+    두 이미지를 겹쳤을 경우 image_B가 제일 위에 출력이 되며 그 밑에 image_A가 출력된다.
