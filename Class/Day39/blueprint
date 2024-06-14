@@ -1,0 +1,30 @@
+// 24.06.14 Day39
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+
+UI - User Interface
+
+Option 화면 제작
+Vertical Box, Horizontal Box, ComboBox, Slider, SpinBox, 
+
+===== Launch URL =====
+URL 정보를 입력가능하다.
+ex ) Insert A => Launch URL ( www.google.co.kr ) // 입력된 URL(www.google.co.kr)로 이동
+
+===== Get Game User Setting =====
+현재 유저의 세팅 정보를 가져온다 
+// Get Screen Resoulution을 통하여 유저 화면정보 확인
+
+===== Set Fullscreen Mode =====
+화면 모드를 변경 가능하다.
+- Fullscreen
+- Windowed Fullscreen
+- Windowed
+
+===== Apply Resoulution Settings =====
+변경된 세팅을 적용하는 기능이다.
+
+ex ) 유저의 화면 모드를 변경하는 과정
+Get Game User Setting => Set Fullscreen Mode => Apply Resoultuon Setting
+유저의 세팅정보 확인  =>   화면 모드를 설정  => 변경된 화면 모드를 적용
