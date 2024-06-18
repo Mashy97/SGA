@@ -1,0 +1,17 @@
+// 24.06.18 Day40
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+
+// Level of Detail - Texture Group 변경 
+Texture Group 변경 이유 => 사용처에 따라서 설정 & 변경
+ex) 에샛을 UI로 사용하기 위해서 => Texture Group을 UI로 변경
+    Character로 사용하기 위해서 => Texture Group을 Character로 변경
+
+텍스쳐 액션 - 에셋 액션 - 프로퍼티 매트릭스를 통한 대량 편집 - LevelofDetail - Texture Group 변경
+
+// 2D Pixel 파일 스프라이트 액션 만들기
+Texture Group => 2D Pixel 변경 과정
+1. 적용할 픽셀 파일 전체 선택 -> 스프라이트 액션 -> 페이퍼 2D 텍스처 세팅 적용
+2. 스프라이트 액션 -> 스프라이트 생성
+3. 생성된 스프라이트 전체 선택 -> 플립북 생성
