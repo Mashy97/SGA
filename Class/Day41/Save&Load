@@ -1,0 +1,27 @@
+// 24.06.19 Day41
+// SGA C++ unreal class
+// unreal engine 4.27 ver
+
+Save & Load
+
+블루프린트 클래스 -> Save Search -> SaveGame 선택 -> BP_MySaveGame
+
+===== Does Save Game Exist =====
+세이브 파일이 있는지 확인
+ex) Does Save Game Exist ( 파일명(SaveData) )
+SaveData 세이브 파일 확인
+
+===== Create Save Game Object =====
+Save Game 오브젝트 생성
+ex) Create Save Game Object ( 게임 클래스 명( BP_MySaveGame) )
+BP_MySaveGame의 정보를 가진 Save 파일 생성
+
+===== Save Game to Slot =====
+Slot에 게임 Save 파일 저장 후 결과(True & False) 출력
+ex) Save Game to Slot ( Game Object, 파일 명(SaveData), Player 번호 )
+SaveData 이름의 Game Object를 Player 번호에 저장한다. 
+
+===== Create Save Game Object =====
+현재 게임에 저장되어 있는 오브젝트 정보를 가져온다.
+ex) Create Save Game Object ( BP_MySaveGame )
+BP_MySaveGame에 저장되어 있는 오브젝트 정보를 가져온다
