@@ -20,3 +20,12 @@ T1.
 
 //
 T2.
+1) C++ 컴파일 파일 - UserWidget
+MyuserWidget.cpp 파일의 MyUserWidget을 출력하는 코딩 후 Unreal Engine에서 컴파일 시 오류 발생
+2) 문제 발생 일자 : 2024.06.19 // 문제 해결 일자 : 2024.06.20
+3) cpp 파일에서 MyUserWidget을 가져오지 못해서 발생하는 문제로 예상됨
+4)    a) build 파일의 ModuleRules에 PublicDependency - UMG 추가
+      b) ModulRules에 PrivateDependency - Slate, SlateCore 추가
+	PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay","UMG" });
+      PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
+5) MyUserWidget을 정상적으로 출력하는 것을 확인
