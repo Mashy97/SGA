@@ -29,3 +29,6 @@ MyuserWidget.cpp 파일의 MyUserWidget을 출력하는 코딩 후 Unreal Engine
 	PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay","UMG" });
      	PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
 5) MyUserWidget을 정상적으로 출력하는 것을 확인
+
+//
+T3.
