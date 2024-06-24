@@ -32,3 +32,12 @@ MyuserWidget.cpp 파일의 MyUserWidget을 출력하는 코딩 후 Unreal Engine
 
 //
 T3.
+1) 공격 모션 출력 오류 - Flipbook
+공격 모션 출력 시 공격 모션이 나오지 않는 오류 발생
+2) 문제 발생 일자 : 2024.06.24 // 문제 해결 일자 :
+3) 공격 모션 출력 시 이동 Set Char Rotate가 설정되어 공격 모션이 없어지는 문제로 예상 
+4)    a)
+      b)
+5) 
+
+//
