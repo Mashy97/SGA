@@ -5,7 +5,7 @@
 // Unreal 2D  
 BP_Char 공격 모션 활성화
 공격 Hit Box 생성 
-캐릭터 이동 모션 제작
+소켓 생성이후 캐릭터 모자 적용
 
 T3.
 1) 공격 모션 출력 오류 - Flipbook
