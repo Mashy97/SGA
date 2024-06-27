@@ -1,0 +1,10 @@
+// 24.06.27 Day47
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+C++ 코드를 이용하여 Gamemode의 Default Pawn Class, Player Controller Class 설정
+Pawn Class에 Sprite와 입력(IA_Move, IA_Attack, IA_Idle) 설정
+C++ 코드 Attack, Move, Idle, Rotate( Rotator )
+
+
+
