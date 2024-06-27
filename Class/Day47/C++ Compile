@@ -6,5 +6,13 @@ C++ 코드를 이용하여 Gamemode의 Default Pawn Class, Player Controller Cla
 Pawn Class에 Sprite와 입력(IA_Move, IA_Attack, IA_Idle) 설정
 C++ 코드 Attack, Move, Idle, Rotate( Rotator )
 
+T5.
+1) MovementInput 속도 
+MovementInput.SizeSquared() 사용하여 Pawn의 속도를 출력하는 과정에서 0으로 고정되는 현상
+2) 문제 발생 일자 : 2024.06.27 // 문제 해결 일자 : 
+3) 속도를 구하는 명령어가 SizeSquared가 아닌 다른 명령어로 예상된다
+4)    a)
+
+5) 
 
 
