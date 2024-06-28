@@ -3,6 +3,7 @@
 // unreal engine 5.4 ver
 
 // 캐릭터 이동 시 Sprite 오류 설정 해결
+// 캐릭터 점프 C++ 코드 진행 중
 
 T5.
 1) MovementInput 속도 
