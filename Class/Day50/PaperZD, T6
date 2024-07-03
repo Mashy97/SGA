@@ -1,0 +1,13 @@
+// 24.07.03 Day50
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+T6.
+1) PaperZD // PaperZDAnimationComponent 오류
+PaperZDAnimationComponent를 컴파일 완료 후 BP_Char에 적용되지 않는 오류
+2) 문제 발생 일자 : 2024.07.02 // 문제 해결 일자 : 2024.07.03
+3) uProject에 PaperZD를 늦게 프로젝트에 적용하여 생기는 문제로 예상
+4) PaperZD를 프로젝트 및 build에 적용 후 New character를 생성하여 해결 
+      a) PaperZD를 install 후 character 생성
+        // PaperZD가 적용되기 전의 생성한 character에 PaperZD를 추가하면 확률적으로 발생하는 문제 
+5) PaperZD를 build 후 생성한 character에서는 컴파일 후 정상적으로 PaperZD가 적용된 것을 확인 가능하다.
