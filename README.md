@@ -8,6 +8,8 @@
 
 # 현재 작업중인 코드 및 트러블 슈팅   
 1. TroubleShooting
+  -  PaperZD 오류 - 2024.07.03 
+2. 이전 TroubleShooting
   -  MovementInput 속도 - 2024.06.28 완료
   - C++ 컴파일 include 파일 인식 오류 - 2024.06.26 완료
   - 공격 모션 출력 오류 - 2024.06.25 완료
