@@ -1,0 +1,13 @@
+// 24.07.04 Day51
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+T7.
+1) Unreal GameMode UI // 
+C++ 코드에서 GameMode Default Pawn, Player Controller 변경 & 컴파일 후 GameMode 확인 시 Unreal UI에 변경되지 않는 현상 
+2) 문제 발생 일자 : 2024.07.04 // 문제 해결 일자 :
+3) 수정된 코드로 정상적으로 작동 하나 UI 부분에서 오류가 있어 UI 업로드 부분 문제로 예상
+4) 
+      a) 
+      
+5) 
