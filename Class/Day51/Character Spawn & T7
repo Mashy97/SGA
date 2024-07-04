@@ -1,0 +1,36 @@
+// 24.07.04 Day51
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+
+// Character Select 구현
+UI Widget -> Button Click ->
+Button_0->OnClicked.AddDynamic(this, &UCharacterSelectWidget::OnCharacter1Selected); // UI Widget에 등록된 onCharacter1Selected 가져오기
+// UCharacterSelectWidget
+void UCharacterSelectWidget::OnCharacter1Selected()
+{
+    AMyGameModeBase* GameMode = Cast<AMyGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
+    if (GameMode)
+    {
+        GameMode->SetPlayerCharacter(CharacterClass1);
+    }
+}
+
+// AMyGameModeBase - 선택된 캐릭터를 스폰
+void AMyGameModeBase::SetPlayerCharacter(TSubclassOf<AMyPaperCharacter_ZD> NewCharacterClass)
+{
+	if (NewCharacterClass)
+	{	//GetPlayerController(const UObject* WorldContextObject, int32 PlayerIndex) 
+		UGameplayStatics::GetPlayerController(GetWorld(), 0)->Possess(GetWorld()->SpawnActor<AMyPaperCharacter_ZD>(NewCharacterClass));
+	}
+}
+
+T7.
+1) Unreal GameMode UI // 
+C++ 코드에서 GameMode Default Pawn, Player Controller 변경 & 컴파일 후 GameMode 확인 시 Unreal UI에 변경되지 않는 현상 
+2) 문제 발생 일자 : 2024.07.04 // 문제 해결 일자 :
+3) 수정된 코드로 정상적으로 작동 하나 UI 부분에서 오류가 있어 UI 업로드 부분 문제로 예상
+4) 
+      a) 
+      
+5) 
