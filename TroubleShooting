@@ -71,3 +71,13 @@ PaperZDAnimationComponent를 컴파일 완료 후 BP_Char에 적용되지 않는
       a) PaperZD를 install 후 Character 생성
         // PaperZD가 적용되기 전의 생성한 Character에 PaperZD를 추가하면 확률적으로 발생하는 문제 
 5) PaperZD를 build 후 생성한 Character에서는 컴파일 후 정상적으로 PaperZD가 적용된 것을 확인 가능하다.
+
+
+T7.
+1) Unreal GameMode UI // 
+C++ 코드에서 GameMode Default Pawn, Player Controller 변경 & 컴파일 후 GameMode 확인 시 Unreal UI에 변경되지 않는 현상 
+2) 문제 발생 일자 : 2024.07.04 // 문제 해결 일자 : 2024.07.04
+3) 수정된 코드로 정상적으로 작동 하나 UI 부분에서 오류가 있어 UI 업로드 부분 문제로 예상
+4) C++ 컴파일 시 header 파일에 변화가 없다면 UI 부분도 마찬가지로 변화가 없어 header 파일에 주석, 수정을 통하여 컴파일
+      a) cpp 파일 수정 후 header 파일에 수정, 주석을 추가하여 Unreal에 컴파일 진행
+5) header 파일을 수정하여 컴파일시 정상적으로 UI가 변하는 것을 확인
