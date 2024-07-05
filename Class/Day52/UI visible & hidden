@@ -1,0 +1,10 @@
+// 24.07.05 Day52
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+// UI visible & hide 
+1. UserWidget 
+NativeConstruct, HideEscWidget
+
+2. MyPlayerController
+UPROPERTY Input Action(IA_Esc), UPROPERTY Subclass(MyUserWidgetClass), UPROPERTY UUserWidget(UMyUserWidgetInstance)
