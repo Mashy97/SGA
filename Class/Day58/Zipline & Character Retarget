@@ -6,3 +6,29 @@ Character Zipline & Character Retarget
 
 Create Character Zipline & Character Retarget
 
+MixaMo Character -> Unreal simple Character Manny Retargeting
+
+===================================
+MixaMo URL
+https://www.mixamo.com/#/
+
+Normal Character 
+X Bot
+Manny - Unreal
+
+===================================
+    Character Retartgeting 순서
+===================================
+X Bot 
+1. Animation -> retargeting -> IK Rig   // X Bot IK Rig 생성 및 리타깃 체인 잡기
+
+2. Animation -> retargeting -> IK Retargeter  // ( Retargeter 실행 후 저장 )
+Source - X Bot  // 
+Target - Manny  // 설정 후 X Bot에 맞추어 Manny 수정 
+
+3. 원하는 모션 Animation Sequence 선택 -> Retarget Animation
+Source - X Bot
+Target - Manny  // 설정
+원하는 애니 메이션 클릭 후 익스포트
+
+===================================
