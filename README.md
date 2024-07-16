@@ -7,16 +7,14 @@
   4. 3D 게임 개발
 
 # 현재 작업중인 코드 및 트러블 슈팅   
-1. TroubleShooting
-  - Unreal GameMode UI 오류 - 2024.07.04
-  - PaperZD 오류 - 2024.07.03
-    
-2. 이전 TroubleShooting
+1. Project TroubleShooting
+  - Zipline 기능 구현 오류 - 2024.07.16
+
+2. TroubleShooting
+  - Unreal GameMode UI 오류 - 2024.07.04 완료
+  - PaperZD 오류 - 2024.07.03 완료
   - MovementInput 속도 - 2024.06.28 완료
-  - C++ 컴파일 include 파일 인식 오류 - 2024.06.26 완료
-  - 공격 모션 출력 오류 - 2024.06.25 완료
-  - C++ 컴파일 위젯 출력 오류 - 2024.06.20 완료
-  - 블루프린트 Actor 키 입력 - 2024.06.05 완료
+
     
 # 명령어
 - 새로운 명령어
