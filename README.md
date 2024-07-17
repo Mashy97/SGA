@@ -8,8 +8,9 @@
 
 # 현재 작업중인 코드 및 트러블 슈팅   
 1. Project TroubleShooting
-  - Charater Animation 출력 오류 - 2024.07.16
-  - Zipline 기능 구현 오류 - 2024.07.16
+  - Ziplining 캐릭터 회전 오류 - 2024.07.17 완료
+  - Charater Animation 출력 오류 - 2024.07.16 완료
+  - Zipline 기능 구현 오류 - 2024.07.16 완료
 
 2. TroubleShooting
   - Unreal GameMode UI 오류 - 2024.07.04 완료
