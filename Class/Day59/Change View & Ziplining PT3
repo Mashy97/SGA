@@ -1,0 +1,23 @@
+// 24.07.17 Day59
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+Character Ziplining & Change View 
+
+PT3. 
+1) Ziplining 캐릭터 회전 오류
+Zipline 행동 액션 시 캐릭터가 -90도 돌아가는 문제 발생
+2) 문제 발생 일자 : 2024.07.17 // 문제 해결 일자 : 2024.07.17
+3) Blueprint에 Ziplining 시 회전 값에 문제가 발생하는 것으로 예상
+4) BP_Zipline의 Sphere End와 Sphere Start의 만나는 Z 축이 다르기 때문에 발생하는 문제
+========================================
+Sphere Start와 Sphere End의 Z값이 어떻게 문제를 발생시켰는가? 에 대한 생각
+
+두 원의 사이에 작동 되는 것이 아닌가? 
+원이 만나는 과정에서 중심의 방향을 맞추어 주지 않았기 때문에 회전을 하는 것이다. 라는 예상
+*O  ----  *O     ==>     O* ---- *O
+시작      끝             시작    끝
+========================================
+
+      a) Sphere Start , Sphere End 둘중 하나의 Z 값을 90도 변경
+5) Z갑 변경 후 캐릭터가 회전하지 않고 착지하는 것을 확인
