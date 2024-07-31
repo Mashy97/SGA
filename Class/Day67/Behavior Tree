@@ -1,0 +1,13 @@
+// 24.07.31 Day67
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+Behavior Tree
+
+Move Character ( Random Vector or Target Point )
+
+Random Vector - BluePrint
+Target Point - C++ & BluePrint
+
+Next. 
+AI Perception ( using sight ) -> Character Capture & Chase
