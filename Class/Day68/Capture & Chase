@@ -1,0 +1,13 @@
+// 24.08.01 Day68
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+Behavior Tree
+
+Using AI sight Perception
+Move Character ( Capture Character & Chase)
+
+
+Next. 
+Perception Heard ( Sound heard or Capture )
+AI Perception ( using heard ) -> Character Capture & Chase
