@@ -1,0 +1,14 @@
+// 24.08.02 Day69
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+Behavior Tree
+
+
+Move Character - Navigation Mesh / NavLinkProxy
+
+
+
+Next. 
+Perception Heard ( Sound heard or Capture )
+AI Perception ( using heard ) -> Character Capture & Chase
