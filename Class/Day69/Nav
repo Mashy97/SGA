@@ -5,8 +5,11 @@
 Behavior Tree
 
 
-Move Character - Navigation Mesh / NavLinkProxy
+Move Character - Navigation Mesh / NavLinkProxy / NavModifierVolume
 
+Navigation Mesh - AI 이동 반경 조정
+NavLinkProxy - Navigation Mesh 사이의 이동 조정
+NavModifierVolume - Navigation Mesh 안에 이동 제한 부분 설정
 
 
 Next. 
