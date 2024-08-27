@@ -1,0 +1,21 @@
+// 24.08.27 Day81
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+// Make Attack Animation - Key Frame
+Resource by Mixamo 
+// Anim Notify
+
+Attack Animation 
+Normal Attack
+1. Normal_Punching
+2. Elbow_Punch
+3. Headbutt
+
+Another Attack
+1. Grab_Head_Attack
+2. Stall_Foot
+
+Get Socket Location - BluePrint
+Actor Set Socket Location - C++
+
