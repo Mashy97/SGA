@@ -1,0 +1,14 @@
+// 24.09.06 Day88
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+벽 돌파 ( 벽 부수기 )
+Collision 설정 시 벽이 부서지는 잔해가 캐릭터를 방해하는 현상 발생
+벽이 데미지를 받는 순간 Nocollsion 설정 시 Delay가 조금 발생하여 수정 필요
+// 벽 부서짐 수정 완료
+
+// 0907
+주먹, 발 등에 Socket을 부착하여 공격시 Damage를 설정
+Dummy 캐릭터를 통해서 공격시 Damage 적용 확인
+
+Attack Motion // Attack Range // Attack Damage // Hit Actor // Create Mummy
