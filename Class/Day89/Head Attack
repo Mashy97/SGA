@@ -1,0 +1,11 @@
+// 24.09.09 Day89
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+Head Attack 제작 중
+
+1. 대상에게 설정된 범위내로 들어가면 공격이 가능하도록 설정
+2. 잡히는 모션을 적용
+
+After 
+잡히는 모션을 만들어 Head Attack을 하는 순간 적이 잡히는 동작까지 제작 예정
