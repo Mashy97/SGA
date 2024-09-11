@@ -1,0 +1,9 @@
+// 24.09.11 Day90
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+Head Attack - 잡히는 대상의 Animation 제작 진행 중
+
+AIPerception Sight / Hearing 설정
+AI가 보는 상대를 쫓아간다.
+AI가 소리를 들으면 해당 장소로 이동한다.
