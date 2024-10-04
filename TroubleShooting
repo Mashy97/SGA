@@ -9,6 +9,14 @@ Troubleshooting
 */
 
 // Project TroubleShooting
+PT5. 
+1) Punch, Elbow Attack 등 Attack 시 이동이 되는 현상
+공격 시 움직임이 가능 하여 Animation이 부자연스러운 현상
+2) 문제 발생 일자 : 2024.10.04 // 문제 해결 일자 : 
+3) Attack 시 Actor State가 Not Walking 상태가 아니여서 발생하는 문제로 예상
+4)
+5)
+
 PT4. 
 1) Climbing 작동 오류
 Input 키를 누르자 마자 벽에 고정되야 하는 기능이 작동을 하지 않음
