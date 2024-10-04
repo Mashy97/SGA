@@ -1,0 +1,25 @@
+// 24.10.04 Day98
+// SGA C++ unreal class
+// unreal engine 5.4 ver
+
+Cascadeur - Create Attack Animaion
+
+기본 공격( 연속 공격 ) 4개
+잡기 공격 2개
+( 누워있는 대상 ) 발로 밟기, 발로 차기
+공격 모션 12개
+잡기 모션 만들기
+
+[ 공격모션 12개, 밟기 디테일 수정, 차는 모션 추가, 잡기 모션 부터 생성 ]
+영상 체크 하면서 디테일 수정
+발로 차는건 살짝 차는 방향
+
+// Project TroubleShooting
+PT5. 
+1) Punch, Elbow Attack 등 Attack 시 이동이 되는 현상
+공격 시 움직임이 가능 하여 Animation이 부자연스러운 현상
+2) 문제 발생 일자 : 2024.10.04 // 문제 해결 일자 : 
+3) Attack 시 Actor State가 Not Walking 상태가 아니여서 발생하는 문제로 예상
+4) 
+      a)
+5)
