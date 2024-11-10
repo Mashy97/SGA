@@ -1,0 +1,13 @@
+ISSUE.
+Play Montage 도중 Set Actor Rotation을 하였지만 대상 캐릭터를 따라가지 않는 현상
+
+Setting.
+1. Sound(Noise)를 발생한 Actor에게 Set Actor Ratation, Set Focus 설정
+2. Character Blueprint에 Get_OffsetRootRotationMode에 Root Rotation Mode를 Release로 수정
+Rotation Mode Release - 모든 오프셋을 블렌딩한 후 캡슐 회전에 고정
+Rotation Mode Accumulate - 루트가 캡슐 회전의 변경 사항을 반대로 회전
+
+Solution.
+1. Actor Blueprint의 Character Movement - Root Motion - 
+애님 루트 모션 중 피직스 회전 허용 체크 
+Allow rotation during anim root motion ( True )
